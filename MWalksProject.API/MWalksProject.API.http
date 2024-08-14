@@ -1,0 +1,6 @@
+@MWalksProject.API_HostAddress = http://localhost:5108
+
+GET {{MWalksProject.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

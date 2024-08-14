@@ -1,0 +1,13 @@
+D:\Projects\MWlaksProject\MWalksProject\MWlaksProject.Core\bin\Debug\net8.0\MWlaksProject.Core.deps.json
+D:\Projects\MWlaksProject\MWalksProject\MWlaksProject.Core\bin\Debug\net8.0\MWlaksProject.Core.dll
+D:\Projects\MWlaksProject\MWalksProject\MWlaksProject.Core\bin\Debug\net8.0\MWlaksProject.Core.pdb
+D:\Projects\MWlaksProject\MWalksProject\MWlaksProject.Core\obj\Debug\net8.0\MWlaksProject.Core.csproj.AssemblyReference.cache
+D:\Projects\MWlaksProject\MWalksProject\MWlaksProject.Core\obj\Debug\net8.0\MWlaksProject.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\MWlaksProject\MWalksProject\MWlaksProject.Core\obj\Debug\net8.0\MWlaksProject.Core.AssemblyInfoInputs.cache
+D:\Projects\MWlaksProject\MWalksProject\MWlaksProject.Core\obj\Debug\net8.0\MWlaksProject.Core.AssemblyInfo.cs
+D:\Projects\MWlaksProject\MWalksProject\MWlaksProject.Core\obj\Debug\net8.0\MWlaksProject.Core.csproj.CoreCompileInputs.cache
+D:\Projects\MWlaksProject\MWalksProject\MWlaksProject.Core\obj\Debug\net8.0\MWlaksProject.Core.sourcelink.json
+D:\Projects\MWlaksProject\MWalksProject\MWlaksProject.Core\obj\Debug\net8.0\MWlaksProject.Core.dll
+D:\Projects\MWlaksProject\MWalksProject\MWlaksProject.Core\obj\Debug\net8.0\refint\MWlaksProject.Core.dll
+D:\Projects\MWlaksProject\MWalksProject\MWlaksProject.Core\obj\Debug\net8.0\MWlaksProject.Core.pdb
+D:\Projects\MWlaksProject\MWalksProject\MWlaksProject.Core\obj\Debug\net8.0\ref\MWlaksProject.Core.dll
