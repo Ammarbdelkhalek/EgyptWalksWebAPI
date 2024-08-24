@@ -147,3 +147,12 @@ D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\obj\Debug\net8.0\MWalk
 D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\obj\Debug\net8.0\MWalksProject.API.genruntimeconfig.cache
 D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\obj\Debug\net8.0\ref\MWalksProject.API.dll
 D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\bin\Debug\net8.0\AutoMapper.dll
+D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\bin\Debug\net8.0\Serilog.dll
+D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\bin\Debug\net8.0\Serilog.Sinks.File.dll

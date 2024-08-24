@@ -10,6 +10,6 @@ namespace MWlaksProject.Core.Interfaces
 {
     public interface IReviewRepsitory
     {
-        Task<Review>Add(CreateReviewDto dto,Guid user);
+        Task<Review>Add(Review review,Guid user);
     }
 }

@@ -12,7 +12,7 @@ namespace MWlaksProject.Core.DTOS.ReviewDto
         public string? Comment { get; set; }
         public int Rate { get; set; }
         public Guid WalkId { get; set; }
-        public string ApplicationUserId { get; set; }
+        public Guid ApplicationUserId { get; set; }
         public Walks Walk { get; set; }
         public ApplicationUser ApplicationUser { get; set; }
     }

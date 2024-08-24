@@ -39,7 +39,7 @@ namespace MWalksProject.Infastructure.UnitOfWork
             Walks = new WalksRepository(context,pagination,mapper);
             Region =  new RegionRepository(context);
             Difficulty =  new DifficultyRepository(context);
-            Reviews = new ReviewRepository(context);
+            Reviews = new ReviewRepository(context,mapper);
             FavoriteWalks =new FaviouriteWalksRepositoy(context) ;
             Images = new ImageRepository(environment,httpContextAccessor,context);
         }

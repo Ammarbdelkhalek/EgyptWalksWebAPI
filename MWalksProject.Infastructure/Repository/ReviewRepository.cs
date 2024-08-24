@@ -14,14 +14,13 @@ namespace MWalksProject.Infastructure.Repository
 {
     public class ReviewRepository(ApplicationDbContext context , IMapper mapper) : IReviewRepsitory
     {
-        public async Task<Review> Add(CreateReviewDto Dto, Guid user)
+        public async Task<Review> Add(Review review, Guid user)
         {
-              user =  context.Entry(Dto).Property<Guid>("ApplicationUserId").CurrentValue = user;
+              user =  context.Entry(review).Property<Guid>("ApplicationUserId").CurrentValue = user;
 
-            var mappedReviews = mapper.Map<Review>(Dto);
-             await context.Reviews.AddAsync(mappedReviews);
+             await context.Reviews.AddAsync(review);
             await context.SaveChangesAsync();
-            return mappedReviews;
+            return review;
         }
     }
 }

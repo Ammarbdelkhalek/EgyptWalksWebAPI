@@ -3,7 +3,9 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
+using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
+using MWalksProject.API.CustomMiddelwarre;
 using MWalksProject.Infastructure.Data;
 using MWalksProject.Infastructure.Repository;
 using MWalksProject.Infastructure.Services;
@@ -14,9 +16,24 @@ using MWlaksProject.Core.IUnitOfWork;
 using MWlaksProject.Core.Models;
 using MWlaksProject.Core.Services;
 using MWlaksProject.Core.Utilities;
+using Serilog;
+using Serilog.Core;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+# region logging configuration
+var Logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .WriteTo.File("Logs/EgyptWalks_Logs.txt", rollingInterval: RollingInterval.Day)
+    .MinimumLevel.Information()
+    .CreateLogger();
+
+builder.Logging.ClearProviders();
+builder.Logging.AddSerilog(Logger);
+Logger.Information("Logger has been configured.");
+#endregion
 
 // Add services to the container.
 
@@ -75,15 +92,16 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseMiddleware<ExceptionHandlerMiddelWar>();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
-/*app.UseStaticFiles(new StaticFileOptions()
+app.UseStaticFiles(new StaticFileOptions()
 {
-    FileProvider = new PhysicalFileProvider(Path.Combine(builder.Environment.WebRootPath, "Images")),
+    FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "Images")),
     RequestPath = "/Images"
-});*/
+});
 
 app.MapControllers();
 
