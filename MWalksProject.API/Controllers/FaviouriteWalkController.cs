@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MWlaksProject.Core.DTOS.FavioriteWalk;
 using MWlaksProject.Core.IUnitOfWork;
 
 namespace MWalksProject.API.Controllers
@@ -14,12 +15,13 @@ namespace MWalksProject.API.Controllers
         public async Task<IActionResult> GetAllFavourite()
         {
             var AllFaviourite = await unitOfWork.FavoriteWalks.GetAllFaviouriteWalks();
-           return Ok(AllFaviourite);
+            var FaviouriteDto = mapper.Map<List<FaviouriteWalksDto>>(AllFaviourite);
+           return Ok(FaviouriteDto);
 
         }
 
         [HttpDelete]
-        [Route("")]
+        [Route("RemoveFaviouriteAsync")]
         public async Task<IActionResult> RemoveFaviouriteAsync(Guid id)
         { 
             var  RemovedItem  = unitOfWork.FavoriteWalks.Remove(id);

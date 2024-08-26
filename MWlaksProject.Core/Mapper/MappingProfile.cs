@@ -1,7 +1,9 @@
 ﻿using AutoMapper;
 using MWlaksProject.Core.DTOS.DifficultiesDto;
+using MWlaksProject.Core.DTOS.FavioriteWalk;
 using MWlaksProject.Core.DTOS.RegionDto;
 using MWlaksProject.Core.DTOS.RegionDTOS;
+using MWlaksProject.Core.DTOS.ReviewDto;
 using MWlaksProject.Core.DTOS.WalksDTO;
 using MWlaksProject.Core.DTOS.WalksDTOS;
 using MWlaksProject.Core.Models;
@@ -11,7 +13,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MWlaksProject.Core.Mapper
+namespace MW.laksProject.Core.Mapper
 {
     public class AutoMapperProfiling:Profile
     {
@@ -19,6 +21,9 @@ namespace MWlaksProject.Core.Mapper
         {
             CreateMap<Region, RegionDto>().ReverseMap();
             CreateMap<Difficulty, DifficultDTO>().ReverseMap();
+            CreateMap<FaviouriteWalks, FaviouriteWalksDto>().ReverseMap();
+            CreateMap<Review, CreateReviewDto>().ReverseMap();
+
 
             CreateMap<Walks, WalksDto>()
                 .ForMember(dest => dest.Region, opt => opt.MapFrom(src => src.Region))

@@ -44,6 +44,8 @@ builder.Services.AddSwaggerGen();
 
 #region dependancy registration
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+builder.Services.AddScoped<IauthRepository, AuthRepository>();
+builder.Services.AddScoped<ITokenServices, TokenServices>();
 builder.Services.AddScoped<PaginationServices>();
 builder.Services.AddAutoMapper(typeof(Program));
 #endregion
@@ -95,6 +97,8 @@ if (app.Environment.IsDevelopment())
 app.UseMiddleware<ExceptionHandlerMiddelWar>();
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
+ 
 app.UseAuthorization();
 
 app.UseStaticFiles(new StaticFileOptions()
