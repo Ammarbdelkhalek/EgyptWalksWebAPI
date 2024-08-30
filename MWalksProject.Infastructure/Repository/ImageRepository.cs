@@ -1,15 +1,9 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Identity;
 using MWalksProject.Infastructure.Data;
 using MWlaksProject.Core.DTOS.ImagesDtos;
 using MWlaksProject.Core.Interfaces;
 using MWlaksProject.Core.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MWalksProject.Infastructure.Repository
 {
@@ -48,7 +42,7 @@ namespace MWalksProject.Infastructure.Repository
 
         public async Task<bool> DeleteImage(Guid id)
         {
-            var image = await context.Images.FindAsync(id);
+            var image = context.Images.FirstOrDefault(x=>x.Id==id); 
             if (image == null)
             {
                 return false;

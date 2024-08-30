@@ -17,10 +17,10 @@ namespace MWlaksProject.Core.DTOS.WalksDTOS
         [Required(),MaxLength(150, ErrorMessage = "Description Should be at least 150")]
 
         public string Description { get; set; }
-        [Required(),Range(1,10)]
+        //[Required(),Range(1000,3)]
 
         public double ?LengthInKm { get; set; }
-        [FileValidator("jpg ,png", 1)]
+        [FileValidator("jpg ,png",1456 )]
         public IFormFile ?WalkImageUrl { get; set; }
         [Required(ErrorMessage = "DifficultyId field is required")]
         public Guid DifficultyId { get; set; }

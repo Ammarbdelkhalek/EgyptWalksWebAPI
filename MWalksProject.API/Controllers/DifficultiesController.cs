@@ -48,8 +48,8 @@ namespace MWalksProject.API.Controllers
             var Difficulty = mapper.Map<Difficulty>(dto);
             var createdDifficulty = await unitOfWork.Difficulty.CreateAsync(Difficulty);
             var DifficultDto = mapper.Map<DifficultDTO>(createdDifficulty);
-            return CreatedAtAction(nameof(GetByIdAsync), new { id = Difficulty.Id }, new { message = "WalkCreated successfuly" });
-
+            return Ok();
+                //CreatedAtAction(nameof(GetByIdAsync), new { id = Difficulty.Id }, new { message = "Walk Created successfuly" });
         }
         [HttpDelete]
         [Route("deleteAsync")]

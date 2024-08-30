@@ -16,7 +16,7 @@ namespace MWalksProject.API.Controllers
         [HttpPost]
         [Route("UploadImages")]
         [FileValidator("Jpg, png",-1)]
-        public async Task<IActionResult>uploadImage(ImageDto dto)
+        public async Task<IActionResult>uploadImage([FromForm]ImageDto dto)
         {
             var ImageUploaded = await unitOfWork.Images.UploadImageAsync(dto);
             if (ImageUploaded != null)

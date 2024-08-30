@@ -34,7 +34,7 @@ namespace MWalksProject.API.Controllers
         }
         [HttpPost]
         [Route("createRegionAsync")]
-        public async Task<IActionResult>CreateAsync(AddRegionDto dto )
+        public async Task<IActionResult>CreateAsync([FromForm]AddRegionDto dto )
         {
             var region = mapper.Map<Region>(dto);
             await unitOfWork.Region.CreateAsync(region);

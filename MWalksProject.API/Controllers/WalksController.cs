@@ -40,7 +40,7 @@ namespace MWalksProject.API.Controllers
         }
 
         [HttpGet]
-        [Route("GetById{id:int}")]
+        [Route("GetById{id}")]
         public async Task<IActionResult> GetByIdAsync(Guid id)
         {
             var walk = await unitOfWork.Walks.GetByIdAsync(id);
@@ -56,7 +56,7 @@ namespace MWalksProject.API.Controllers
         {
             var walk = await unitOfWork.Walks.CreateAsync(dto);
             var walkMapper = mapper.Map<AddWalkDto>(walk);
-            return CreatedAtAction(nameof(GetByIdAsync), new { id = walk.Id }, new { message = "WalkCreated successfuly" });
+            return CreatedAtAction(nameof(GetByIdAsync), new { id = walk.Id }, new { message = "Walk Created successfuly" });
 
         }
         [HttpDelete]

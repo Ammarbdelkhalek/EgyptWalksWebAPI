@@ -196,3 +196,540 @@ WHERE [a].[UserId] = @__user_Id_0
 2024-08-26 18:40:50.553 +03:00 [INF] Executed action MWalksProject.API.Controllers.AuthController.LoginAsync (MWalksProject.API) in 1602.4699ms
 2024-08-26 18:40:50.556 +03:00 [INF] Executed endpoint 'MWalksProject.API.Controllers.AuthController.LoginAsync (MWalksProject.API)'
 2024-08-26 18:40:50.564 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Auth/Login - 200 null application/json; charset=utf-8 1727.4847ms
+2024-08-26 18:48:08.859 +03:00 [INF] Logger has been configured.
+2024-08-26 18:48:09.666 +03:00 [INF] User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 18:48:09.998 +03:00 [INF] Now listening on: http://localhost:5108
+2024-08-26 18:48:10.005 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 18:48:10.008 +03:00 [INF] Hosting environment: Development
+2024-08-26 18:48:10.010 +03:00 [INF] Content root path: D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API
+2024-08-26 18:48:11.028 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2024-08-26 18:48:11.883 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 867.4949ms
+2024-08-26 18:48:11.962 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-26 18:48:11.987 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_vs/browserLink - null null
+2024-08-26 18:48:12.017 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 54.5815ms
+2024-08-26 18:48:12.605 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_vs/browserLink - 200 null text/javascript; charset=UTF-8 617.5839ms
+2024-08-26 18:48:12.714 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2024-08-26 18:48:13.963 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1249.0961ms
+2024-08-26 18:59:47.513 +03:00 [INF] Logger has been configured.
+2024-08-26 18:59:49.058 +03:00 [INF] User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 18:59:49.560 +03:00 [INF] Now listening on: http://localhost:5108
+2024-08-26 18:59:49.564 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 18:59:49.565 +03:00 [INF] Hosting environment: Development
+2024-08-26 18:59:49.566 +03:00 [INF] Content root path: D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API
+2024-08-26 18:59:50.303 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2024-08-26 18:59:50.673 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 374.4071ms
+2024-08-26 18:59:50.721 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-26 18:59:50.729 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_vs/browserLink - null null
+2024-08-26 18:59:50.742 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 20.4478ms
+2024-08-26 18:59:50.787 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_vs/browserLink - 200 null text/javascript; charset=UTF-8 58.1631ms
+2024-08-26 18:59:50.874 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2024-08-26 18:59:51.274 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 399.8041ms
+2024-08-26 19:00:24.208 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/api/FaviouriteWalk/GetAllFavourite - null null
+2024-08-26 19:00:24.245 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-08-26 19:00:25.502 +03:00 [INF] Executing endpoint 'MWalksProject.API.Controllers.FaviouriteWalkController.GetAllFavourite (MWalksProject.API)'
+2024-08-26 19:00:25.527 +03:00 [INF] Route matched with {action = "GetAllFavourite", controller = "FaviouriteWalk"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllFavourite() on controller MWalksProject.API.Controllers.FaviouriteWalkController (MWalksProject.API).
+2024-08-26 19:00:28.686 +03:00 [INF] Executed DbCommand (71ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [f].[Id], [f].[ApplicationUserId], [f].[Name], [f].[WalkId]
+FROM [FaviouriteWalks] AS [f]
+2024-08-26 19:00:28.734 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MWlaksProject.Core.DTOS.FavioriteWalk.FaviouriteWalksDto, MWlaksProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-26 19:00:28.756 +03:00 [INF] Executed action MWalksProject.API.Controllers.FaviouriteWalkController.GetAllFavourite (MWalksProject.API) in 3222.0065ms
+2024-08-26 19:00:28.759 +03:00 [INF] Executed endpoint 'MWalksProject.API.Controllers.FaviouriteWalkController.GetAllFavourite (MWalksProject.API)'
+2024-08-26 19:00:28.769 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/api/FaviouriteWalk/GetAllFavourite - 200 null application/json; charset=utf-8 4560.4212ms
+2024-08-26 19:01:17.833 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Images/UploadImages - multipart/form-data; boundary=----WebKitFormBoundaryu5A4aHoutYeWpgES 45595
+2024-08-26 19:01:17.841 +03:00 [INF] Executing endpoint 'MWalksProject.API.Controllers.ImagesController.uploadImage (MWalksProject.API)'
+2024-08-26 19:01:17.852 +03:00 [INF] Route matched with {action = "uploadImage", controller = "Images"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] uploadImage(MWlaksProject.Core.DTOS.ImagesDtos.ImageDto) on controller MWalksProject.API.Controllers.ImagesController (MWalksProject.API).
+2024-08-26 19:01:18.518 +03:00 [INF] Executed DbCommand (86ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Images] ([Id], [FileDescription], [FileExtension], [FileName], [FilePath], [FileSizeInBytes])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-08-26 19:01:18.533 +03:00 [INF] Executing OkObjectResult, writing value of type 'MWlaksProject.Core.Models.Images'.
+2024-08-26 19:01:18.545 +03:00 [INF] Executed action MWalksProject.API.Controllers.ImagesController.uploadImage (MWalksProject.API) in 689.6437ms
+2024-08-26 19:01:18.548 +03:00 [INF] Executed endpoint 'MWalksProject.API.Controllers.ImagesController.uploadImage (MWalksProject.API)'
+2024-08-26 19:01:18.550 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Images/UploadImages - 200 null application/json; charset=utf-8 717.0038ms
+2024-08-26 19:01:44.885 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/Images/e6028034-091f-4024-8dc5-9cbfe748cd14.png - null null
+2024-08-26 19:01:44.988 +03:00 [INF] Sending file. Request path: '/e6028034-091f-4024-8dc5-9cbfe748cd14.png'. Physical path: 'D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\Images\e6028034-091f-4024-8dc5-9cbfe748cd14.png'
+2024-08-26 19:01:44.990 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/Images/e6028034-091f-4024-8dc5-9cbfe748cd14.png - 200 45180 image/png 105.4013ms
+2024-08-26 19:01:45.109 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/favicon.ico - null null
+2024-08-26 19:01:45.112 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/favicon.ico - 404 0 null 2.9628ms
+2024-08-26 19:01:45.116 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5108/favicon.ico, Response status code: 404
+2024-08-26 19:03:03.648 +03:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5108/api/Images/DeleteImages?id=e6028034-091f-4024-8dc5-9cbfe748cd14 - null null
+2024-08-26 19:03:03.652 +03:00 [INF] Executing endpoint 'MWalksProject.API.Controllers.ImagesController.DeleteAync (MWalksProject.API)'
+2024-08-26 19:03:03.658 +03:00 [INF] Route matched with {action = "DeleteAync", controller = "Images"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteAync(System.Guid) on controller MWalksProject.API.Controllers.ImagesController (MWalksProject.API).
+2024-08-26 19:03:04.192 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[FileDescription], [i].[FileExtension], [i].[FileName], [i].[FilePath], [i].[FileSizeInBytes]
+FROM [Images] AS [i]
+WHERE [i].[Id] = @__get_Item_0
+2024-08-26 19:03:04.331 +03:00 [INF] Executed action MWalksProject.API.Controllers.ImagesController.DeleteAync (MWalksProject.API) in 670.6998ms
+2024-08-26 19:03:04.334 +03:00 [INF] Executed endpoint 'MWalksProject.API.Controllers.ImagesController.DeleteAync (MWalksProject.API)'
+2024-08-26 19:03:04.413 +03:00 [ERR] 04439fdb-bd6d-41bd-b0f2-0c6b1a1a0d2bValue cannot be null. (Parameter 'path1')
+System.ArgumentNullException: Value cannot be null. (Parameter 'path1')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.IO.Path.Combine(String path1, String path2)
+   at MWalksProject.Infastructure.Repository.ImageRepository.DeleteImage(Guid id) in D:\Projects\MWlaksProject\MWalksProject\MWalksProject.Infastructure\Repository\ImageRepository.cs:line 56
+   at MWalksProject.API.Controllers.ImagesController.DeleteAync(Guid id) in D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\Controllers\ImagesController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at MWalksProject.API.CustomMiddelwarre.ExceptionHandlerMiddelWar.InvokeAsync(HttpContext context) in D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\CustomMiddelwarre\CustomMiddleWare.cs:line 21
+2024-08-26 19:03:04.664 +03:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5108/api/Images/DeleteImages?id=e6028034-091f-4024-8dc5-9cbfe748cd14 - 500 null application/json; charset=utf-8 1016.5234ms
+2024-08-26 19:04:32.340 +03:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5108/api/Images/DeleteImages?id=e6028034-091f-4024-8dc5-9cbfe748cd14 - null null
+2024-08-26 19:04:32.349 +03:00 [INF] Executing endpoint 'MWalksProject.API.Controllers.ImagesController.DeleteAync (MWalksProject.API)'
+2024-08-26 19:04:32.352 +03:00 [INF] Route matched with {action = "DeleteAync", controller = "Images"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteAync(System.Guid) on controller MWalksProject.API.Controllers.ImagesController (MWalksProject.API).
+2024-08-26 19:04:32.367 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[FileDescription], [i].[FileExtension], [i].[FileName], [i].[FilePath], [i].[FileSizeInBytes]
+FROM [Images] AS [i]
+WHERE [i].[Id] = @__get_Item_0
+2024-08-26 19:04:32.421 +03:00 [INF] Executed action MWalksProject.API.Controllers.ImagesController.DeleteAync (MWalksProject.API) in 67.6906ms
+2024-08-26 19:04:32.424 +03:00 [INF] Executed endpoint 'MWalksProject.API.Controllers.ImagesController.DeleteAync (MWalksProject.API)'
+2024-08-26 19:04:32.486 +03:00 [ERR] 859f9f61-7fd7-4ba2-8b8b-5181d88655efValue cannot be null. (Parameter 'path1')
+System.ArgumentNullException: Value cannot be null. (Parameter 'path1')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.IO.Path.Combine(String path1, String path2)
+   at MWalksProject.Infastructure.Repository.ImageRepository.DeleteImage(Guid id) in D:\Projects\MWlaksProject\MWalksProject\MWalksProject.Infastructure\Repository\ImageRepository.cs:line 56
+   at MWalksProject.API.Controllers.ImagesController.DeleteAync(Guid id) in D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\Controllers\ImagesController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at MWalksProject.API.CustomMiddelwarre.ExceptionHandlerMiddelWar.InvokeAsync(HttpContext context) in D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\CustomMiddelwarre\CustomMiddleWare.cs:line 21
+2024-08-26 19:04:32.499 +03:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5108/api/Images/DeleteImages?id=e6028034-091f-4024-8dc5-9cbfe748cd14 - 500 null application/json; charset=utf-8 158.8577ms
+2024-08-26 19:09:01.937 +03:00 [INF] Logger has been configured.
+2024-08-26 19:09:02.727 +03:00 [INF] User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 19:09:02.912 +03:00 [INF] Now listening on: http://localhost:5108
+2024-08-26 19:09:02.916 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 19:09:02.918 +03:00 [INF] Hosting environment: Development
+2024-08-26 19:09:02.919 +03:00 [INF] Content root path: D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API
+2024-08-26 19:09:03.361 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2024-08-26 19:09:03.656 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 303.6756ms
+2024-08-26 19:09:03.708 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-26 19:09:03.708 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_vs/browserLink - null null
+2024-08-26 19:09:03.717 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 9.1121ms
+2024-08-26 19:09:03.771 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_vs/browserLink - 200 null text/javascript; charset=UTF-8 63.1309ms
+2024-08-26 19:09:03.823 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2024-08-26 19:09:03.995 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 171.3244ms
+2024-08-26 19:11:20.748 +03:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5108/api/Images/DeleteImages?id=E6028034-091F-4024-8DC5-9CBFE748CD14 - null null
+2024-08-26 19:11:20.762 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-08-26 19:11:20.869 +03:00 [INF] Executing endpoint 'MWalksProject.API.Controllers.ImagesController.DeleteAync (MWalksProject.API)'
+2024-08-26 19:11:20.894 +03:00 [INF] Route matched with {action = "DeleteAync", controller = "Images"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteAync(System.Guid) on controller MWalksProject.API.Controllers.ImagesController (MWalksProject.API).
+2024-08-26 19:11:22.438 +03:00 [INF] Executed DbCommand (59ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[FileDescription], [i].[FileExtension], [i].[FileName], [i].[FilePath], [i].[FileSizeInBytes]
+FROM [Images] AS [i]
+WHERE [i].[Id] = @__get_Item_0
+2024-08-26 19:11:22.602 +03:00 [INF] Executed action MWalksProject.API.Controllers.ImagesController.DeleteAync (MWalksProject.API) in 1702.2182ms
+2024-08-26 19:11:22.605 +03:00 [INF] Executed endpoint 'MWalksProject.API.Controllers.ImagesController.DeleteAync (MWalksProject.API)'
+2024-08-26 19:11:22.687 +03:00 [ERR] 8e89a386-45f8-4229-810e-d17f2343dd52Value cannot be null. (Parameter 'path1')
+System.ArgumentNullException: Value cannot be null. (Parameter 'path1')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.IO.Path.Combine(String path1, String path2)
+   at MWalksProject.Infastructure.Repository.ImageRepository.DeleteImage(Guid id) in D:\Projects\MWlaksProject\MWalksProject\MWalksProject.Infastructure\Repository\ImageRepository.cs:line 56
+   at MWalksProject.API.Controllers.ImagesController.DeleteAync(Guid id) in D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\Controllers\ImagesController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at MWalksProject.API.CustomMiddelwarre.ExceptionHandlerMiddelWar.InvokeAsync(HttpContext context) in D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\CustomMiddelwarre\CustomMiddleWare.cs:line 21
+2024-08-26 19:11:22.733 +03:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5108/api/Images/DeleteImages?id=E6028034-091F-4024-8DC5-9CBFE748CD14 - 500 null application/json; charset=utf-8 1985.6044ms
+2024-08-26 19:14:23.243 +03:00 [INF] Logger has been configured.
+2024-08-26 19:14:23.782 +03:00 [INF] User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 19:14:23.915 +03:00 [INF] Now listening on: http://localhost:5108
+2024-08-26 19:14:23.918 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 19:14:23.919 +03:00 [INF] Hosting environment: Development
+2024-08-26 19:14:23.920 +03:00 [INF] Content root path: D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API
+2024-08-26 19:14:24.589 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2024-08-26 19:14:24.839 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 254.7986ms
+2024-08-26 19:14:24.878 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-26 19:14:24.885 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_vs/browserLink - null null
+2024-08-26 19:14:24.888 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 10.6592ms
+2024-08-26 19:14:24.924 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.3417ms
+2024-08-26 19:14:24.986 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2024-08-26 19:14:25.124 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 138.4321ms
+2024-08-26 19:14:41.929 +03:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5108/api/Images/DeleteImages?id=E6028034-091F-4024-8DC5-9CBFE748CD14 - null null
+2024-08-26 19:14:41.940 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-08-26 19:14:42.009 +03:00 [INF] Executing endpoint 'MWalksProject.API.Controllers.ImagesController.DeleteAync (MWalksProject.API)'
+2024-08-26 19:14:42.033 +03:00 [INF] Route matched with {action = "DeleteAync", controller = "Images"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteAync(System.Guid) on controller MWalksProject.API.Controllers.ImagesController (MWalksProject.API).
+2024-08-26 19:18:40.028 +03:00 [INF] Logger has been configured.
+2024-08-26 19:18:41.021 +03:00 [INF] User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 19:18:41.408 +03:00 [INF] Now listening on: http://localhost:5108
+2024-08-26 19:18:41.411 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 19:18:41.413 +03:00 [INF] Hosting environment: Development
+2024-08-26 19:18:41.414 +03:00 [INF] Content root path: D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API
+2024-08-26 19:18:42.060 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2024-08-26 19:18:42.441 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 391.5302ms
+2024-08-26 19:18:42.482 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-26 19:18:42.501 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_vs/browserLink - null null
+2024-08-26 19:18:42.512 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 30.322ms
+2024-08-26 19:18:42.600 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_vs/browserLink - 200 null text/javascript; charset=UTF-8 99.137ms
+2024-08-26 19:18:42.689 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2024-08-26 19:18:42.864 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 174.8469ms
+2024-08-26 19:18:57.446 +03:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5108/api/Images/DeleteImages?id=E6028034-091F-4024-8DC5-9CBFE748CD14 - null null
+2024-08-26 19:18:57.458 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-08-26 19:18:57.588 +03:00 [INF] Executing endpoint 'MWalksProject.API.Controllers.ImagesController.DeleteAync (MWalksProject.API)'
+2024-08-26 19:18:57.610 +03:00 [INF] Route matched with {action = "DeleteAync", controller = "Images"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteAync(System.Guid) on controller MWalksProject.API.Controllers.ImagesController (MWalksProject.API).
+2024-08-26 19:45:15.161 +03:00 [INF] Logger has been configured.
+2024-08-26 19:45:16.542 +03:00 [INF] User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 19:45:16.978 +03:00 [INF] Now listening on: http://localhost:5108
+2024-08-26 19:45:16.982 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 19:45:16.984 +03:00 [INF] Hosting environment: Development
+2024-08-26 19:45:16.985 +03:00 [INF] Content root path: D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API
+2024-08-26 19:45:19.089 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger - null null
+2024-08-26 19:45:19.621 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger - 301 0 null 549.0959ms
+2024-08-26 19:45:20.357 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2024-08-26 19:45:20.446 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 89.1159ms
+2024-08-26 19:45:20.486 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/swagger-ui.css - null null
+2024-08-26 19:45:20.490 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/swagger-ui-bundle.js - null null
+2024-08-26 19:45:20.499 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-26 19:45:20.492 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/swagger-ui-standalone-preset.js - null null
+2024-08-26 19:45:20.505 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_vs/browserLink - null null
+2024-08-26 19:45:20.514 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 14.9102ms
+2024-08-26 19:45:20.565 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.5156ms
+2024-08-26 19:45:20.635 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-08-26 19:45:20.635 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-08-26 19:45:20.639 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/swagger-ui.css - 200 143943 text/css 152.6784ms
+2024-08-26 19:45:20.639 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 146.6094ms
+2024-08-26 19:45:20.672 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-08-26 19:45:20.674 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 184.3659ms
+2024-08-26 19:45:20.885 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2024-08-26 19:45:21.040 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 155.1679ms
+2024-08-26 19:46:38.443 +03:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5108/api/Images/DeleteImages?id=E6028034-091F-4024-8DC5-9CBFE748CD14 - null null
+2024-08-26 19:46:38.454 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-08-26 19:46:39.579 +03:00 [INF] Executing endpoint 'MWalksProject.API.Controllers.ImagesController.DeleteAync (MWalksProject.API)'
+2024-08-26 19:46:39.621 +03:00 [INF] Route matched with {action = "DeleteAync", controller = "Images"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteAync(System.Guid) on controller MWalksProject.API.Controllers.ImagesController (MWalksProject.API).
+2024-08-26 19:47:05.945 +03:00 [INF] Executed DbCommand (105ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[FileDescription], [i].[FileExtension], [i].[FileName], [i].[FilePath], [i].[FileSizeInBytes]
+FROM [Images] AS [i]
+WHERE [i].[Id] = @__id_0
+2024-08-26 19:48:04.600 +03:00 [INF] Executed action MWalksProject.API.Controllers.ImagesController.DeleteAync (MWalksProject.API) in 84969.758ms
+2024-08-26 19:48:04.609 +03:00 [INF] Executed endpoint 'MWalksProject.API.Controllers.ImagesController.DeleteAync (MWalksProject.API)'
+2024-08-26 19:48:04.619 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'path1')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.IO.Path.Combine(String path1, String path2)
+   at MWalksProject.Infastructure.Repository.ImageRepository.DeleteImage(Guid id) in D:\Projects\MWlaksProject\MWalksProject\MWalksProject.Infastructure\Repository\ImageRepository.cs:line 57
+   at MWalksProject.API.Controllers.ImagesController.DeleteAync(Guid id) in D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\Controllers\ImagesController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-26 19:48:04.773 +03:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5108/api/Images/DeleteImages?id=E6028034-091F-4024-8DC5-9CBFE748CD14 - 500 null text/plain; charset=utf-8 86330.1961ms
+2024-08-26 19:49:10.255 +03:00 [INF] Logger has been configured.
+2024-08-26 19:49:11.548 +03:00 [INF] User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 19:49:11.834 +03:00 [INF] Now listening on: http://localhost:5108
+2024-08-26 19:49:11.840 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 19:49:11.842 +03:00 [INF] Hosting environment: Development
+2024-08-26 19:49:11.844 +03:00 [INF] Content root path: D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API
+2024-08-26 19:49:12.611 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger - null null
+2024-08-26 19:49:12.851 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger - 301 0 null 241.8473ms
+2024-08-26 19:49:12.865 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2024-08-26 19:49:12.985 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 119.0209ms
+2024-08-26 19:49:13.061 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-26 19:49:13.081 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_vs/browserLink - null null
+2024-08-26 19:49:13.099 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 37.9092ms
+2024-08-26 19:49:13.218 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_vs/browserLink - 200 null text/javascript; charset=UTF-8 137.2084ms
+2024-08-26 19:49:13.514 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2024-08-26 19:49:13.770 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 256.1766ms
+2024-08-26 19:49:30.562 +03:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5108/api/Images/DeleteImages?id=E6028034-091F-4024-8DC5-9CBFE748CD14 - null null
+2024-08-26 19:49:30.573 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-08-26 19:49:30.647 +03:00 [INF] Executing endpoint 'MWalksProject.API.Controllers.ImagesController.DeleteAync (MWalksProject.API)'
+2024-08-26 19:49:30.669 +03:00 [INF] Route matched with {action = "DeleteAync", controller = "Images"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteAync(System.Guid) on controller MWalksProject.API.Controllers.ImagesController (MWalksProject.API).
+2024-08-26 19:49:36.680 +03:00 [INF] Executed DbCommand (68ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[FileDescription], [i].[FileExtension], [i].[FileName], [i].[FilePath], [i].[FileSizeInBytes]
+FROM [Images] AS [i]
+WHERE [i].[Id] = @__id_0
+2024-08-26 19:50:03.662 +03:00 [INF] Executed action MWalksProject.API.Controllers.ImagesController.DeleteAync (MWalksProject.API) in 32986.7246ms
+2024-08-26 19:50:03.668 +03:00 [INF] Executed endpoint 'MWalksProject.API.Controllers.ImagesController.DeleteAync (MWalksProject.API)'
+2024-08-26 19:50:03.675 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'path1')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.IO.Path.Combine(String path1, String path2)
+   at MWalksProject.Infastructure.Repository.ImageRepository.DeleteImage(Guid id) in D:\Projects\MWlaksProject\MWalksProject\MWalksProject.Infastructure\Repository\ImageRepository.cs:line 57
+   at MWalksProject.API.Controllers.ImagesController.DeleteAync(Guid id) in D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\Controllers\ImagesController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-26 19:50:03.712 +03:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5108/api/Images/DeleteImages?id=E6028034-091F-4024-8DC5-9CBFE748CD14 - 500 null text/plain; charset=utf-8 33149.5637ms
+2024-08-26 19:50:19.939 +03:00 [INF] Logger has been configured.
+2024-08-26 19:50:20.762 +03:00 [INF] User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 19:50:21.019 +03:00 [INF] Now listening on: http://localhost:5108
+2024-08-26 19:50:21.024 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 19:50:21.025 +03:00 [INF] Hosting environment: Development
+2024-08-26 19:50:21.026 +03:00 [INF] Content root path: D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API
+2024-08-26 19:50:21.453 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2024-08-26 19:50:21.808 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 365.265ms
+2024-08-26 19:50:21.856 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-26 19:50:21.862 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_vs/browserLink - null null
+2024-08-26 19:50:21.864 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 8.1583ms
+2024-08-26 19:50:21.909 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.2951ms
+2024-08-26 19:50:21.967 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2024-08-26 19:50:22.128 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 161.2885ms
+2024-08-26 19:50:37.802 +03:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5108/api/Images/DeleteImages?id=E6028034-091F-4024-8DC5-9CBFE748CD14 - null null
+2024-08-26 19:50:37.813 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-08-26 19:50:37.880 +03:00 [INF] Executing endpoint 'MWalksProject.API.Controllers.ImagesController.DeleteAync (MWalksProject.API)'
+2024-08-26 19:50:37.902 +03:00 [INF] Route matched with {action = "DeleteAync", controller = "Images"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteAync(System.Guid) on controller MWalksProject.API.Controllers.ImagesController (MWalksProject.API).
+2024-08-26 19:50:48.639 +03:00 [INF] Executed DbCommand (47ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [i].[Id], [i].[FileDescription], [i].[FileExtension], [i].[FileName], [i].[FilePath], [i].[FileSizeInBytes]
+FROM [Images] AS [i]
+WHERE [i].[Id] = @__id_0
+2024-08-26 19:51:47.037 +03:00 [INF] Executed action MWalksProject.API.Controllers.ImagesController.DeleteAync (MWalksProject.API) in 69129.6179ms
+2024-08-26 19:51:47.042 +03:00 [INF] Executed endpoint 'MWalksProject.API.Controllers.ImagesController.DeleteAync (MWalksProject.API)'
+2024-08-26 19:51:47.048 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'path1')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.IO.Path.Combine(String path1, String path2)
+   at MWalksProject.Infastructure.Repository.ImageRepository.DeleteImage(Guid id) in D:\Projects\MWlaksProject\MWalksProject\MWalksProject.Infastructure\Repository\ImageRepository.cs:line 57
+   at MWalksProject.API.Controllers.ImagesController.DeleteAync(Guid id) in D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\Controllers\ImagesController.cs:line 33
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-26 19:51:47.082 +03:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5108/api/Images/DeleteImages?id=E6028034-091F-4024-8DC5-9CBFE748CD14 - 500 null text/plain; charset=utf-8 69280.6546ms
+2024-08-26 19:53:08.148 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/api/Walks/GetALLWalksAsync?page=1&limit=5 - null null
+2024-08-26 19:53:08.192 +03:00 [INF] Executing endpoint 'MWalksProject.API.Controllers.WalksController.GetAllWalksAsync (MWalksProject.API)'
+2024-08-26 19:53:08.211 +03:00 [INF] Route matched with {action = "GetAllWalks", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllWalksAsync(System.String, System.String, System.String, System.Nullable`1[System.Boolean], Int32, Int32) on controller MWalksProject.API.Controllers.WalksController (MWalksProject.API).
+2024-08-26 19:53:08.328 +03:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Walks] AS [w]
+2024-08-26 19:53:08.360 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-08-26 19:53:08.362 +03:00 [WRN] The query uses a row limiting operator ('Skip'/'Take') without an 'OrderBy' operator. This may lead to unpredictable results. If the 'Distinct' operator is used after 'OrderBy', then make sure to use the 'OrderBy' operator after 'Distinct' as the ordering would otherwise get erased.
+2024-08-26 19:53:08.751 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[Id], [t].[Description], [t].[DifficultyId], [t].[LengthInKm], [t].[Name], [t].[RegionId], [t].[WalkImageUrl], [r].[Id], [r].[Code], [r].[Name], [r].[RegionImageUrl], [d].[Id], [d].[Name]
+FROM (
+    SELECT [w].[Id], [w].[Description], [w].[DifficultyId], [w].[LengthInKm], [w].[Name], [w].[RegionId], [w].[WalkImageUrl]
+    FROM [Walks] AS [w]
+    ORDER BY (SELECT 1)
+    OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+) AS [t]
+INNER JOIN [Regions] AS [r] ON [t].[RegionId] = [r].[Id]
+INNER JOIN [difficulties] AS [d] ON [t].[DifficultyId] = [d].[Id]
+2024-08-26 19:53:08.784 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType2`2[[System.Collections.Generic.IEnumerable`1[[MWlaksProject.Core.DTOS.WalksDTO.WalksDto, MWlaksProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[MWlaksProject.Core.Helper.PaginationMetaData, MWlaksProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-08-26 19:53:08.805 +03:00 [INF] Executed action MWalksProject.API.Controllers.WalksController.GetAllWalksAsync (MWalksProject.API) in 590.7635ms
+2024-08-26 19:53:08.810 +03:00 [INF] Executed endpoint 'MWalksProject.API.Controllers.WalksController.GetAllWalksAsync (MWalksProject.API)'
+2024-08-26 19:53:08.812 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/api/Walks/GetALLWalksAsync?page=1&limit=5 - 200 null application/json; charset=utf-8 664.2145ms
+2024-08-26 19:53:25.661 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/api/Walks/GetById1 - null null
+2024-08-26 19:53:25.670 +03:00 [INF] Executing endpoint 'MWalksProject.API.Controllers.WalksController.GetByIdAsync (MWalksProject.API)'
+2024-08-26 19:53:25.679 +03:00 [INF] Route matched with {action = "GetById", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetByIdAsync(System.Guid) on controller MWalksProject.API.Controllers.WalksController (MWalksProject.API).
+2024-08-26 19:53:25.696 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-08-26 19:53:25.714 +03:00 [INF] Executed action MWalksProject.API.Controllers.WalksController.GetByIdAsync (MWalksProject.API) in 32.1926ms
+2024-08-26 19:53:25.718 +03:00 [INF] Executed endpoint 'MWalksProject.API.Controllers.WalksController.GetByIdAsync (MWalksProject.API)'
+2024-08-26 19:53:25.718 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/api/Walks/GetById1 - 400 null application/problem+json; charset=utf-8 57.4744ms
+2024-08-26 19:55:18.419 +03:00 [INF] Logger has been configured.
+2024-08-26 19:55:19.142 +03:00 [INF] User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 19:55:19.350 +03:00 [INF] Now listening on: http://localhost:5108
+2024-08-26 19:55:19.353 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 19:55:19.355 +03:00 [INF] Hosting environment: Development
+2024-08-26 19:55:19.356 +03:00 [INF] Content root path: D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API
+2024-08-26 19:55:19.925 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2024-08-26 19:55:20.139 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 215.9775ms
+2024-08-26 19:55:20.177 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-26 19:55:20.185 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_vs/browserLink - null null
+2024-08-26 19:55:20.186 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 8.0452ms
+2024-08-26 19:55:20.228 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.5423ms
+2024-08-26 19:55:20.286 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2024-08-26 19:55:20.424 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 138.4663ms
+2024-08-26 19:56:22.406 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/api/Walks/GetById1 - null null
+2024-08-26 19:56:22.425 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-08-26 19:56:22.489 +03:00 [INF] Executing endpoint 'MWalksProject.API.Controllers.WalksController.GetByIdAsync (MWalksProject.API)'
+2024-08-26 19:56:22.510 +03:00 [INF] Route matched with {action = "GetById", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetByIdAsync(System.Guid) on controller MWalksProject.API.Controllers.WalksController (MWalksProject.API).
+2024-08-26 19:56:22.693 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-08-26 19:56:22.712 +03:00 [INF] Executed action MWalksProject.API.Controllers.WalksController.GetByIdAsync (MWalksProject.API) in 195.8624ms
+2024-08-26 19:56:22.715 +03:00 [INF] Executed endpoint 'MWalksProject.API.Controllers.WalksController.GetByIdAsync (MWalksProject.API)'
+2024-08-26 19:56:22.717 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/api/Walks/GetById1 - 400 null application/problem+json; charset=utf-8 311.3099ms
+2024-08-26 19:56:57.453 +03:00 [INF] Logger has been configured.
+2024-08-26 19:56:58.499 +03:00 [INF] User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 19:56:58.711 +03:00 [INF] Now listening on: http://localhost:5108
+2024-08-26 19:56:58.714 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 19:56:58.716 +03:00 [INF] Hosting environment: Development
+2024-08-26 19:56:58.717 +03:00 [INF] Content root path: D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API
+2024-08-26 19:56:59.248 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2024-08-26 19:56:59.507 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 268.1877ms
+2024-08-26 19:56:59.549 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-26 19:56:59.555 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_vs/browserLink - null null
+2024-08-26 19:56:59.556 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 7.1712ms
+2024-08-26 19:56:59.601 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_vs/browserLink - 200 null text/javascript; charset=UTF-8 46.1484ms
+2024-08-26 19:56:59.653 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2024-08-26 19:56:59.786 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 132.6448ms
+2024-08-26 19:57:26.123 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/api/Walks/GetByIdE6028034-091F-4024-8DC5-9CBFE748CD14 - null null
+2024-08-26 19:57:26.146 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-08-26 19:57:26.212 +03:00 [INF] Executing endpoint 'MWalksProject.API.Controllers.WalksController.GetByIdAsync (MWalksProject.API)'
+2024-08-26 19:57:26.232 +03:00 [INF] Route matched with {action = "GetById", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetByIdAsync(System.Guid) on controller MWalksProject.API.Controllers.WalksController (MWalksProject.API).
+2024-08-26 19:57:27.449 +03:00 [INF] Executed DbCommand (37ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [w].[Id], [w].[Description], [w].[DifficultyId], [w].[LengthInKm], [w].[Name], [w].[RegionId], [w].[WalkImageUrl]
+FROM [Walks] AS [w]
+WHERE [w].[Id] = @__id_0
+2024-08-26 19:58:22.139 +03:00 [INF] Logger has been configured.
+2024-08-26 19:58:22.948 +03:00 [INF] User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 19:58:23.230 +03:00 [INF] Now listening on: http://localhost:5108
+2024-08-26 19:58:23.234 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 19:58:23.236 +03:00 [INF] Hosting environment: Development
+2024-08-26 19:58:23.237 +03:00 [INF] Content root path: D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API
+2024-08-26 19:58:23.793 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2024-08-26 19:58:24.008 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 217.157ms
+2024-08-26 19:58:24.045 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-26 19:58:24.047 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_vs/browserLink - null null
+2024-08-26 19:58:24.051 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 6.4721ms
+2024-08-26 19:58:24.082 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_vs/browserLink - 200 null text/javascript; charset=UTF-8 34.838ms
+2024-08-26 19:58:24.142 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2024-08-26 19:58:24.302 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 159.9774ms
+2024-08-26 20:00:44.409 +03:00 [INF] Logger has been configured.
+2024-08-26 20:00:45.055 +03:00 [INF] User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 20:00:45.197 +03:00 [INF] Now listening on: http://localhost:5108
+2024-08-26 20:00:45.200 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 20:00:45.202 +03:00 [INF] Hosting environment: Development
+2024-08-26 20:00:45.204 +03:00 [INF] Content root path: D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API
+2024-08-26 20:00:45.682 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2024-08-26 20:00:45.904 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 228.7123ms
+2024-08-26 20:00:45.942 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-26 20:00:45.943 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_vs/browserLink - null null
+2024-08-26 20:00:45.950 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 7.6481ms
+2024-08-26 20:00:46.006 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_vs/browserLink - 200 null text/javascript; charset=UTF-8 63.3815ms
+2024-08-26 20:00:46.058 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2024-08-26 20:00:46.207 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 149.0296ms
+2024-08-26 20:01:37.304 +03:00 [INF] Logger has been configured.
+2024-08-26 20:01:37.940 +03:00 [INF] User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 20:01:38.093 +03:00 [INF] Now listening on: http://localhost:5108
+2024-08-26 20:01:38.097 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 20:01:38.098 +03:00 [INF] Hosting environment: Development
+2024-08-26 20:01:38.099 +03:00 [INF] Content root path: D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API
+2024-08-26 20:01:38.709 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2024-08-26 20:01:38.922 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 217.4754ms
+2024-08-26 20:01:38.971 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-26 20:01:38.974 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_vs/browserLink - null null
+2024-08-26 20:01:38.980 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 9.6566ms
+2024-08-26 20:01:39.028 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.8618ms
+2024-08-26 20:01:39.083 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2024-08-26 20:01:39.238 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 154.7091ms
+2024-08-26 20:02:09.022 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Walks/Create?Name=madrid&Description=hallo%20&LengthInKm=1000.00&DifficultyId=E6028034-091F-4024-8DC5-9CBFE748CD14&RegionId=E6028034-091F-4024-8DC5-9CBFE748CD14 - multipart/form-data; boundary=----WebKitFormBoundaryJvasr9oc6cdieyLX 2992246
+2024-08-26 20:02:09.036 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-08-26 20:02:09.103 +03:00 [INF] Executing endpoint 'MWalksProject.API.Controllers.WalksController.CreateAsync (MWalksProject.API)'
+2024-08-26 20:02:09.131 +03:00 [INF] Route matched with {action = "Create", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAsync(MWlaksProject.Core.DTOS.WalksDTOS.AddWalkDto) on controller MWalksProject.API.Controllers.WalksController (MWalksProject.API).
+2024-08-26 20:02:09.422 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-08-26 20:02:09.439 +03:00 [INF] Executed action MWalksProject.API.Controllers.WalksController.CreateAsync (MWalksProject.API) in 300.1038ms
+2024-08-26 20:02:09.442 +03:00 [INF] Executed endpoint 'MWalksProject.API.Controllers.WalksController.CreateAsync (MWalksProject.API)'
+2024-08-26 20:02:09.450 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Walks/Create?Name=madrid&Description=hallo%20&LengthInKm=1000.00&DifficultyId=E6028034-091F-4024-8DC5-9CBFE748CD14&RegionId=E6028034-091F-4024-8DC5-9CBFE748CD14 - 400 null application/problem+json; charset=utf-8 429.362ms
+2024-08-26 20:05:42.392 +03:00 [INF] Logger has been configured.
+2024-08-26 20:05:43.116 +03:00 [INF] User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 20:05:43.257 +03:00 [INF] Now listening on: http://localhost:5108
+2024-08-26 20:05:43.261 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 20:05:43.262 +03:00 [INF] Hosting environment: Development
+2024-08-26 20:05:43.262 +03:00 [INF] Content root path: D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API
+2024-08-26 20:05:43.684 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2024-08-26 20:05:43.926 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 245.6162ms
+2024-08-26 20:05:43.969 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-26 20:05:43.974 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_vs/browserLink - null null
+2024-08-26 20:05:43.977 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 7.4518ms
+2024-08-26 20:05:44.027 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.4967ms
+2024-08-26 20:05:44.085 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2024-08-26 20:05:44.232 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 147.2083ms
+2024-08-26 20:06:39.897 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Walks/Create?Name=madrid&Description=hallo%20&LengthInKm=1000.00&DifficultyId=E6028034-091F-4024-8DC5-9CBFE748CD14&RegionId=E6028034-091F-4024-8DC5-9CBFE748CD14 - multipart/form-data; boundary=----WebKitFormBoundaryEcVoULkQnm2GH7qQ 45371
+2024-08-26 20:06:39.913 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-08-26 20:06:39.987 +03:00 [INF] Executing endpoint 'MWalksProject.API.Controllers.WalksController.CreateAsync (MWalksProject.API)'
+2024-08-26 20:06:40.010 +03:00 [INF] Route matched with {action = "Create", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAsync(MWlaksProject.Core.DTOS.WalksDTOS.AddWalkDto) on controller MWalksProject.API.Controllers.WalksController (MWalksProject.API).
+2024-08-26 20:06:41.360 +03:00 [INF] Executed DbCommand (54ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[Code], [r].[Name], [r].[RegionImageUrl]
+FROM [Regions] AS [r]
+WHERE [r].[Id] = @__get_Item_0
+2024-08-26 20:06:41.469 +03:00 [INF] Executed action MWalksProject.API.Controllers.WalksController.CreateAsync (MWalksProject.API) in 1452.6429ms
+2024-08-26 20:06:41.473 +03:00 [INF] Executed endpoint 'MWalksProject.API.Controllers.WalksController.CreateAsync (MWalksProject.API)'
+2024-08-26 20:06:41.476 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+MWlaksProject.Core.exception.NotFoundException: Region with id e6028034-091f-4024-8dc5-9cbfe748cd14 not found.
+   at MWalksProject.Infastructure.Repository.WalksRepository.CreateAsync(AddWalkDto dto) in D:\Projects\MWlaksProject\MWalksProject\MWalksProject.Infastructure\Repository\WalksRepository.cs:line 119
+   at MWalksProject.API.Controllers.WalksController.CreateAsync(AddWalkDto dto) in D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\Controllers\WalksController.cs:line 57
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-26 20:06:41.524 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Walks/Create?Name=madrid&Description=hallo%20&LengthInKm=1000.00&DifficultyId=E6028034-091F-4024-8DC5-9CBFE748CD14&RegionId=E6028034-091F-4024-8DC5-9CBFE748CD14 - 500 null text/plain; charset=utf-8 1627.9669ms
+2024-08-26 20:07:15.331 +03:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5108/api/Walks/delete?id=E6028034-091F-4024-8DC5-9CBFE748CD14 - null null
+2024-08-26 20:07:15.350 +03:00 [INF] Executing endpoint 'MWalksProject.API.Controllers.WalksController.DeleteAsync (MWalksProject.API)'
+2024-08-26 20:07:15.355 +03:00 [INF] Route matched with {action = "Delete", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteAsync(System.Guid) on controller MWalksProject.API.Controllers.WalksController (MWalksProject.API).
+2024-08-26 20:07:15.396 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [w].[Id], [w].[Description], [w].[DifficultyId], [w].[LengthInKm], [w].[Name], [w].[RegionId], [w].[WalkImageUrl]
+FROM [Walks] AS [w]
+WHERE [w].[Id] = @__id_0
+2024-08-26 20:40:53.447 +03:00 [INF] Logger has been configured.
+2024-08-26 20:40:54.564 +03:00 [INF] User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-26 20:40:54.825 +03:00 [INF] Now listening on: http://localhost:5108
+2024-08-26 20:40:54.829 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-26 20:40:54.831 +03:00 [INF] Hosting environment: Development
+2024-08-26 20:40:54.832 +03:00 [INF] Content root path: D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API
+2024-08-26 20:40:55.512 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2024-08-26 20:40:55.729 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 223.2627ms
+2024-08-26 20:40:55.778 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-26 20:40:55.783 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_vs/browserLink - null null
+2024-08-26 20:40:55.786 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 9.1987ms
+2024-08-26 20:40:55.824 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.1829ms
+2024-08-26 20:40:55.892 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2024-08-26 20:40:56.031 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 139.3632ms

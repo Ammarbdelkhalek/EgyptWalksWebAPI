@@ -1,0 +1,194 @@
+2024-08-27 01:08:03.608 +03:00 [INF] Logger has been configured.
+2024-08-27 01:08:04.268 +03:00 [INF] User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-27 01:08:04.496 +03:00 [INF] Now listening on: http://localhost:5108
+2024-08-27 01:08:04.499 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-27 01:08:04.500 +03:00 [INF] Hosting environment: Development
+2024-08-27 01:08:04.501 +03:00 [INF] Content root path: D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API
+2024-08-27 01:08:05.186 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2024-08-27 01:08:05.426 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 249.1485ms
+2024-08-27 01:08:05.475 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-27 01:08:05.475 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_vs/browserLink - null null
+2024-08-27 01:08:05.483 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 8.5427ms
+2024-08-27 01:08:05.525 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.193ms
+2024-08-27 01:08:05.582 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2024-08-27 01:08:05.729 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 146.5055ms
+2024-08-27 01:10:59.444 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Difficulties/CreateAsync - application/json 29
+2024-08-27 01:10:59.460 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-08-27 01:10:59.961 +03:00 [INF] Executing endpoint 'MWalksProject.API.Controllers.DifficultiesController.CreateAsync (MWalksProject.API)'
+2024-08-27 01:10:59.995 +03:00 [INF] Route matched with {action = "Create", controller = "Difficulties"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAsync(MWlaksProject.Core.DTOS.DifficultiesDto.DifficultDTO) on controller MWalksProject.API.Controllers.DifficultiesController (MWalksProject.API).
+2024-08-27 01:11:00.665 +03:00 [INF] Executed action MWalksProject.API.Controllers.DifficultiesController.CreateAsync (MWalksProject.API) in 663.9481ms
+2024-08-27 01:11:00.668 +03:00 [INF] Executed endpoint 'MWalksProject.API.Controllers.DifficultiesController.CreateAsync (MWalksProject.API)'
+2024-08-27 01:11:00.670 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+DifficultDTO -> Difficulty
+MWlaksProject.Core.DTOS.DifficultiesDto.DifficultDTO -> MWlaksProject.Core.Models.Difficulty
+   at lambda_method23(Closure, Object, Difficulty, ResolutionContext)
+   at MWalksProject.API.Controllers.DifficultiesController.CreateAsync(DifficultDTO dto) in D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\Controllers\DifficultiesController.cs:line 48
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-27 01:11:00.726 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Difficulties/CreateAsync - 500 null text/plain; charset=utf-8 1282.7036ms
+2024-08-27 01:12:39.097 +03:00 [INF] Logger has been configured.
+2024-08-27 01:12:39.979 +03:00 [INF] User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-27 01:12:40.238 +03:00 [INF] Now listening on: http://localhost:5108
+2024-08-27 01:12:40.241 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-27 01:12:40.242 +03:00 [INF] Hosting environment: Development
+2024-08-27 01:12:40.243 +03:00 [INF] Content root path: D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API
+2024-08-27 01:12:40.701 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2024-08-27 01:12:40.922 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 228.4519ms
+2024-08-27 01:12:40.971 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-27 01:12:40.972 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_vs/browserLink - null null
+2024-08-27 01:12:40.980 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 8.3099ms
+2024-08-27 01:12:41.028 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_vs/browserLink - 200 null text/javascript; charset=UTF-8 56.2086ms
+2024-08-27 01:12:41.095 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2024-08-27 01:12:41.305 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 210.0432ms
+2024-08-27 01:13:04.792 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Difficulties/CreateAsync - application/json 27
+2024-08-27 01:13:04.807 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-08-27 01:13:04.919 +03:00 [INF] Executing endpoint 'MWalksProject.API.Controllers.DifficultiesController.CreateAsync (MWalksProject.API)'
+2024-08-27 01:13:04.949 +03:00 [INF] Route matched with {action = "Create", controller = "Difficulties"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAsync(MWlaksProject.Core.DTOS.DifficultiesDto.DifficultDTO) on controller MWalksProject.API.Controllers.DifficultiesController (MWalksProject.API).
+2024-08-27 01:13:05.532 +03:00 [INF] Executed action MWalksProject.API.Controllers.DifficultiesController.CreateAsync (MWalksProject.API) in 578.1347ms
+2024-08-27 01:13:05.535 +03:00 [INF] Executed endpoint 'MWalksProject.API.Controllers.DifficultiesController.CreateAsync (MWalksProject.API)'
+2024-08-27 01:13:05.537 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+DifficultDTO -> Difficulty
+MWlaksProject.Core.DTOS.DifficultiesDto.DifficultDTO -> MWlaksProject.Core.Models.Difficulty
+   at lambda_method23(Closure, Object, Difficulty, ResolutionContext)
+   at MWalksProject.API.Controllers.DifficultiesController.CreateAsync(DifficultDTO dto) in D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\Controllers\DifficultiesController.cs:line 48
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-27 01:13:05.587 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Difficulties/CreateAsync - 500 null text/plain; charset=utf-8 795.0237ms
+2024-08-27 01:14:56.453 +03:00 [INF] Logger has been configured.
+2024-08-27 01:14:57.206 +03:00 [INF] User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-27 01:14:57.450 +03:00 [INF] Now listening on: http://localhost:5108
+2024-08-27 01:14:57.454 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-27 01:14:57.455 +03:00 [INF] Hosting environment: Development
+2024-08-27 01:14:57.456 +03:00 [INF] Content root path: D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API
+2024-08-27 01:14:57.904 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2024-08-27 01:14:58.123 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 226.8579ms
+2024-08-27 01:14:58.172 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-27 01:14:58.174 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_vs/browserLink - null null
+2024-08-27 01:14:58.178 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 6.4732ms
+2024-08-27 01:14:58.218 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.6061ms
+2024-08-27 01:14:58.271 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2024-08-27 01:14:58.434 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 162.4049ms
+2024-08-27 01:15:12.593 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/Difficulties/CreateAsync - application/json 20
+2024-08-27 01:15:12.603 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-08-27 01:15:12.675 +03:00 [INF] Executing endpoint 'MWalksProject.API.Controllers.DifficultiesController.CreateAsync (MWalksProject.API)'
+2024-08-27 01:15:12.698 +03:00 [INF] Route matched with {action = "Create", controller = "Difficulties"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAsync(MWlaksProject.Core.DTOS.DifficultiesDto.DifficultDTO) on controller MWalksProject.API.Controllers.DifficultiesController (MWalksProject.API).
+2024-08-27 01:15:12.989 +03:00 [INF] Executed action MWalksProject.API.Controllers.DifficultiesController.CreateAsync (MWalksProject.API) in 284.4685ms
+2024-08-27 01:15:12.991 +03:00 [INF] Executed endpoint 'MWalksProject.API.Controllers.DifficultiesController.CreateAsync (MWalksProject.API)'
+2024-08-27 01:15:12.993 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+DifficultDTO -> Difficulty
+MWlaksProject.Core.DTOS.DifficultiesDto.DifficultDTO -> MWlaksProject.Core.Models.Difficulty
+   at lambda_method23(Closure, Object, Difficulty, ResolutionContext)
+   at MWalksProject.API.Controllers.DifficultiesController.CreateAsync(DifficultDTO dto) in D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\Controllers\DifficultiesController.cs:line 48
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-27 01:15:13.040 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/Difficulties/CreateAsync - 500 null text/plain; charset=utf-8 446.5907ms
+2024-08-27 01:19:30.264 +03:00 [INF] Logger has been configured.
+2024-08-27 01:19:30.957 +03:00 [INF] User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-27 01:19:31.084 +03:00 [INF] Now listening on: http://localhost:5108
+2024-08-27 01:19:31.088 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-27 01:19:31.088 +03:00 [INF] Hosting environment: Development
+2024-08-27 01:19:31.089 +03:00 [INF] Content root path: D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API
+2024-08-27 01:19:31.522 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2024-08-27 01:19:31.736 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 214.4469ms
+2024-08-27 01:19:31.781 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-27 01:19:31.781 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_vs/browserLink - null null
+2024-08-27 01:19:31.787 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 6.6354ms
+2024-08-27 01:19:31.823 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.9037ms
+2024-08-27 01:19:31.880 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2024-08-27 01:19:32.033 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 153.1548ms
+2024-08-27 01:23:12.396 +03:00 [INF] Logger has been configured.
+2024-08-27 01:23:13.080 +03:00 [INF] User profile is available. Using 'C:\Users\DELL\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-08-27 01:23:13.289 +03:00 [INF] Now listening on: http://localhost:5108
+2024-08-27 01:23:13.293 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-08-27 01:23:13.295 +03:00 [INF] Hosting environment: Development
+2024-08-27 01:23:13.298 +03:00 [INF] Content root path: D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API
+2024-08-27 01:23:13.632 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/index.html - null null
+2024-08-27 01:23:13.933 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/index.html - 200 null text/html;charset=utf-8 309.8575ms
+2024-08-27 01:23:13.972 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - null null
+2024-08-27 01:23:13.976 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/_vs/browserLink - null null
+2024-08-27 01:23:13.980 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_framework/aspnetcore-browser-refresh.js - 200 13770 application/javascript; charset=utf-8 7.9478ms
+2024-08-27 01:23:14.021 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/_vs/browserLink - 200 null text/javascript; charset=UTF-8 45.0508ms
+2024-08-27 01:23:14.072 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - null null
+2024-08-27 01:23:14.217 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5108/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 144.7198ms
+2024-08-27 01:24:40.515 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5108/api/RegionControllers/createRegionAsync - multipart/form-data; boundary=----WebKitFormBoundaryFNU8UrCcYSfWF4sO 45567
+2024-08-27 01:24:40.531 +03:00 [WRN] Failed to determine the https port for redirect.
+2024-08-27 01:24:40.597 +03:00 [INF] Executing endpoint 'MWalksProject.API.Controllers.RegionControllers.CreateAsync (MWalksProject.API)'
+2024-08-27 01:24:40.621 +03:00 [INF] Route matched with {action = "Create", controller = "RegionControllers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateAsync(MWlaksProject.Core.DTOS.RegionDTOS.AddRegionDto) on controller MWalksProject.API.Controllers.RegionControllers (MWalksProject.API).
+2024-08-27 01:24:40.900 +03:00 [INF] Executed action MWalksProject.API.Controllers.RegionControllers.CreateAsync (MWalksProject.API) in 273.1713ms
+2024-08-27 01:24:40.903 +03:00 [INF] Executed endpoint 'MWalksProject.API.Controllers.RegionControllers.CreateAsync (MWalksProject.API)'
+2024-08-27 01:24:40.905 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AddRegionDto -> Region
+MWlaksProject.Core.DTOS.RegionDTOS.AddRegionDto -> MWlaksProject.Core.Models.Region
+   at lambda_method24(Closure, Object, Region, ResolutionContext)
+   at MWalksProject.API.Controllers.RegionControllers.CreateAsync(AddRegionDto dto) in D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\Controllers\RegionControllers.cs:line 39
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-08-27 01:24:40.947 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5108/api/RegionControllers/createRegionAsync - 500 null text/plain; charset=utf-8 432.3442ms

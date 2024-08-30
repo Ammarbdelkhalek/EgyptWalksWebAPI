@@ -94,7 +94,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseMiddleware<ExceptionHandlerMiddelWar>();
+//app.UseMiddleware<ExceptionHandlerMiddelWar>();
 app.UseHttpsRedirection();
 
 app.UseAuthentication();
