@@ -3,52 +3,152 @@
   "WorkspaceRootPath": "D:\\Projects\\MWlaksProject\\MWalksProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.api\\controllers\\regioncontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|solutionrelative:mwalksproject.api\\controllers\\regioncontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.api\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|solutionrelative:mwalksproject.api\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\dtos\\regiondtos\\addregiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\dtos\\regiondtos\\addregiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\models\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\models\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\dtos\\difficultiesdtos\\difficultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\dtos\\difficultiesdtos\\difficultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A555395-1413-4ACD-B31E-28019D6DD587}|MWalksProject.Infastructure\\MWalksProject.Infastructure.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.infastructure\\repository\\walksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A555395-1413-4ACD-B31E-28019D6DD587}|MWalksProject.Infastructure\\MWalksProject.Infastructure.csproj|solutionrelative:mwalksproject.infastructure\\repository\\walksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.api\\controllers\\difficultiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|solutionrelative:mwalksproject.api\\controllers\\difficultiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.api\\controllers\\faviouritewalkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|solutionrelative:mwalksproject.api\\controllers\\faviouritewalkcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|solutionrelative:mwalksproject.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.api\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|solutionrelative:mwalksproject.api\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.api\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|solutionrelative:mwalksproject.api\\controllers\\walkscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\dtos\\walksdtos\\walksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\dtos\\walksdtos\\walksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\dtos\\walksdtos\\addwalkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\dtos\\walksdtos\\addwalkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\models\\walks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\models\\walks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\dtos\\reviewdtos\\createreviewsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\dtos\\reviewdtos\\createreviewsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A555395-1413-4ACD-B31E-28019D6DD587}|MWalksProject.Infastructure\\MWalksProject.Infastructure.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.infastructure\\repository\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A555395-1413-4ACD-B31E-28019D6DD587}|MWalksProject.Infastructure\\MWalksProject.Infastructure.csproj|solutionrelative:mwalksproject.infastructure\\repository\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A555395-1413-4ACD-B31E-28019D6DD587}|MWalksProject.Infastructure\\MWalksProject.Infastructure.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.infastructure\\repository\\faviouritewalksrepositoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A555395-1413-4ACD-B31E-28019D6DD587}|MWalksProject.Infastructure\\MWalksProject.Infastructure.csproj|solutionrelative:mwalksproject.infastructure\\repository\\faviouritewalksrepositoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\models\\faviouritewalks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\models\\faviouritewalks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\dtos\\favioritewalkdtos\\faviouritewalksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\dtos\\favioritewalkdtos\\faviouritewalksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\dtos\\favioritewalkdtos\\addfaviouritewalkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\dtos\\favioritewalkdtos\\addfaviouritewalkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\interfaces\\ireviewrepsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\interfaces\\ireviewrepsitory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A555395-1413-4ACD-B31E-28019D6DD587}|MWalksProject.Infastructure\\MWalksProject.Infastructure.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.infastructure\\migrations\\20240905142325_update type of user id .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A555395-1413-4ACD-B31E-28019D6DD587}|MWalksProject.Infastructure\\MWalksProject.Infastructure.csproj|solutionrelative:mwalksproject.infastructure\\migrations\\20240905142325_update type of user id .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\models\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\models\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\models\\difficult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\models\\difficult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\models\\images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\models\\images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.api\\controllers\\difficultiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|solutionrelative:mwalksproject.api\\controllers\\difficultiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.api\\controllers\\regioncontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|solutionrelative:mwalksproject.api\\controllers\\regioncontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A555395-1413-4ACD-B31E-28019D6DD587}|MWalksProject.Infastructure\\MWalksProject.Infastructure.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.infastructure\\repository\\regionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A555395-1413-4ACD-B31E-28019D6DD587}|MWalksProject.Infastructure\\MWalksProject.Infastructure.csproj|solutionrelative:mwalksproject.infastructure\\repository\\regionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A555395-1413-4ACD-B31E-28019D6DD587}|MWalksProject.Infastructure\\MWalksProject.Infastructure.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.infastructure\\repository\\difficultyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A555395-1413-4ACD-B31E-28019D6DD587}|MWalksProject.Infastructure\\MWalksProject.Infastructure.csproj|solutionrelative:mwalksproject.infastructure\\repository\\difficultyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\interfaces\\igenericinterfacerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\interfaces\\igenericinterfacerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\interfaces\\iregionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\interfaces\\iregionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\interfaces\\iwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\interfaces\\iwalkrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\interfaces\\ifaviouritewalks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\interfaces\\ifaviouritewalks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\dtos\\walksdtos\\updatewalksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\dtos\\walksdtos\\updatewalksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\dtos\\regiondtos\\regiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\dtos\\regiondtos\\regiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\dtos\\regiondtos\\addregiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\dtos\\regiondtos\\addregiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\utilities\\imageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\utilities\\imageconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\dtos\\difficultiesdtos\\difficultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\dtos\\difficultiesdtos\\difficultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|solutionrelative:mwalksproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.api\\mwalksproject.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|solutionrelative:mwalksproject.api\\mwalksproject.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|solutionrelative:mwalksproject.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|solutionrelative:mwalksproject.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.api\\mwalksproject.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
@@ -61,14 +161,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\iunitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\iunitofwork\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.api\\custommiddelwarre\\custommiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|solutionrelative:mwalksproject.api\\custommiddelwarre\\custommiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.api\\customactionfilter\\customactionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|solutionrelative:mwalksproject.api\\customactionfilter\\customactionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A555395-1413-4ACD-B31E-28019D6DD587}|MWalksProject.Infastructure\\MWalksProject.Infastructure.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.infastructure\\repository\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -87,26 +179,6 @@
       "RelativeMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|solutionrelative:mwalksproject.api\\logs\\egyptwalks_logs20240826.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A555395-1413-4ACD-B31E-28019D6DD587}|MWalksProject.Infastructure\\MWalksProject.Infastructure.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.infastructure\\repository\\walksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A555395-1413-4ACD-B31E-28019D6DD587}|MWalksProject.Infastructure\\MWalksProject.Infastructure.csproj|solutionrelative:mwalksproject.infastructure\\repository\\walksrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\dtos\\walksdtos\\addwalkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\dtos\\walksdtos\\addwalkdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\models\\walks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\models\\walks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\dtos\\walksdtos\\walksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\dtos\\walksdtos\\walksdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\models\\images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\models\\images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\customvalidationattribute\\customvalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\customvalidationattribute\\customvalidationattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -119,10 +191,6 @@
       "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\dtos\\imagesdtos\\imagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A555395-1413-4ACD-B31E-28019D6DD587}|MWalksProject.Infastructure\\MWalksProject.Infastructure.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.infastructure\\repository\\faviouritewalksrepositoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A555395-1413-4ACD-B31E-28019D6DD587}|MWalksProject.Infastructure\\MWalksProject.Infastructure.csproj|solutionrelative:mwalksproject.infastructure\\repository\\faviouritewalksrepositoy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.api\\logs\\egyptwalks_logs20240814.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|solutionrelative:mwalksproject.api\\logs\\egyptwalks_logs20240814.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -133,14 +201,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.api\\logs\\egyptwalks_logs20240824.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{157D54B4-9E1D-4AB6-823F-7D56E24B519B}|MWalksProject.API\\MWalksProject.API.csproj|solutionrelative:mwalksproject.api\\logs\\egyptwalks_logs20240824.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\models\\faviouritewalks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\models\\faviouritewalks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\models\\difficult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\models\\difficult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\helper\\authmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -171,8 +231,8 @@
       "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\exception\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwlaksproject.core\\interfaces\\iregionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F5311BC-8531-4BF4-839C-85C8A584C441}|MWlaksProject.Core\\MWlaksProject.Core.csproj|solutionrelative:mwlaksproject.core\\interfaces\\iregionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A555395-1413-4ACD-B31E-28019D6DD587}|MWalksProject.Infastructure\\MWalksProject.Infastructure.csproj|d:\\projects\\mwlaksproject\\mwalksproject\\mwalksproject.infastructure\\migrations\\20240905141609_update application user type and name .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A555395-1413-4ACD-B31E-28019D6DD587}|MWalksProject.Infastructure\\MWalksProject.Infastructure.csproj|solutionrelative:mwalksproject.infastructure\\migrations\\20240905141609_update application user type and name .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -182,7 +242,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 42,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -194,7 +254,267 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
+              "Title": "FaviouriteWalksDto.cs",
+              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\DTOS\\FavioriteWalkDTOS\\FaviouriteWalksDto.cs",
+              "RelativeDocumentMoniker": "MWlaksProject.Core\\DTOS\\FavioriteWalkDTOS\\FaviouriteWalksDto.cs",
+              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\DTOS\\FavioriteWalkDTOS\\FaviouriteWalksDto.cs",
+              "RelativeToolTip": "MWlaksProject.Core\\DTOS\\FavioriteWalkDTOS\\FaviouriteWalksDto.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAowA8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T14:42:32.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20240905142325_update type of user id .cs",
+              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.Infastructure\\Migrations\\20240905142325_update type of user id .cs",
+              "RelativeDocumentMoniker": "MWalksProject.Infastructure\\Migrations\\20240905142325_update type of user id .cs",
+              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.Infastructure\\Migrations\\20240905142325_update type of user id .cs",
+              "RelativeToolTip": "MWalksProject.Infastructure\\Migrations\\20240905142325_update type of user id .cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAABAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T14:23:25.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "20240905141609_Update application user type and name .cs",
+              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.Infastructure\\Migrations\\20240905141609_Update application user type and name .cs",
+              "RelativeDocumentMoniker": "MWalksProject.Infastructure\\Migrations\\20240905141609_Update application user type and name .cs",
+              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.Infastructure\\Migrations\\20240905141609_Update application user type and name .cs",
+              "RelativeToolTip": "MWalksProject.Infastructure\\Migrations\\20240905141609_Update application user type and name .cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T14:16:09.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IReviewRepsitory.cs",
+              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Interfaces\\IReviewRepsitory.cs",
+              "RelativeDocumentMoniker": "MWlaksProject.Core\\Interfaces\\IReviewRepsitory.cs",
+              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Interfaces\\IReviewRepsitory.cs",
+              "RelativeToolTip": "MWlaksProject.Core\\Interfaces\\IReviewRepsitory.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAowAwAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T13:54:00.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IwalkRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Interfaces\\IwalkRepository.cs",
+              "RelativeDocumentMoniker": "MWlaksProject.Core\\Interfaces\\IwalkRepository.cs",
+              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Interfaces\\IwalkRepository.cs",
+              "RelativeToolTip": "MWlaksProject.Core\\Interfaces\\IwalkRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T13:53:58.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IGenericInterfaceRepo.cs",
+              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Interfaces\\IGenericInterfaceRepo.cs",
+              "RelativeDocumentMoniker": "MWlaksProject.Core\\Interfaces\\IGenericInterfaceRepo.cs",
+              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Interfaces\\IGenericInterfaceRepo.cs",
+              "RelativeToolTip": "MWlaksProject.Core\\Interfaces\\IGenericInterfaceRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T13:53:44.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "MWlaksProject.Core\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "MWlaksProject.Core\\Models\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T16:58:53.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReviewRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.Infastructure\\Repository\\ReviewRepository.cs",
+              "RelativeDocumentMoniker": "MWalksProject.Infastructure\\Repository\\ReviewRepository.cs",
+              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.Infastructure\\Repository\\ReviewRepository.cs",
+              "RelativeToolTip": "MWalksProject.Infastructure\\Repository\\ReviewRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAYwBQAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T16:52:33.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateReviewsDto.cs",
+              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\DTOS\\ReviewDTOS\\CreateReviewsDto.cs",
+              "RelativeDocumentMoniker": "MWlaksProject.Core\\DTOS\\ReviewDTOS\\CreateReviewsDto.cs",
+              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\DTOS\\ReviewDTOS\\CreateReviewsDto.cs",
+              "RelativeToolTip": "MWlaksProject.Core\\DTOS\\ReviewDTOS\\CreateReviewsDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAswA4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T16:51:19.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AddFaviouriteWalkDto.cs",
+              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\DTOS\\FavioriteWalkDTOS\\AddFaviouriteWalkDto.cs",
+              "RelativeDocumentMoniker": "MWlaksProject.Core\\DTOS\\FavioriteWalkDTOS\\AddFaviouriteWalkDto.cs",
+              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\DTOS\\FavioriteWalkDTOS\\AddFaviouriteWalkDto.cs",
+              "RelativeToolTip": "MWlaksProject.Core\\DTOS\\FavioriteWalkDTOS\\AddFaviouriteWalkDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAwwAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T16:02:37.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IFaviouriteWalks.cs",
+              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Interfaces\\IFaviouriteWalks.cs",
+              "RelativeDocumentMoniker": "MWlaksProject.Core\\Interfaces\\IFaviouriteWalks.cs",
+              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Interfaces\\IFaviouriteWalks.cs",
+              "RelativeToolTip": "MWlaksProject.Core\\Interfaces\\IFaviouriteWalks.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAkwA0AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T15:52:56.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UpdateWalksDto.cs",
+              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\DTOS\\WalksDTOS\\UpdateWalksDto.cs",
+              "RelativeDocumentMoniker": "MWlaksProject.Core\\DTOS\\WalksDTOS\\UpdateWalksDto.cs",
+              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\DTOS\\WalksDTOS\\UpdateWalksDto.cs",
+              "RelativeToolTip": "MWlaksProject.Core\\DTOS\\WalksDTOS\\UpdateWalksDto.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA2wB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T15:35:59.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WalksController.cs",
+              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Controllers\\WalksController.cs",
+              "RelativeDocumentMoniker": "MWalksProject.API\\Controllers\\WalksController.cs",
+              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Controllers\\WalksController.cs",
+              "RelativeToolTip": "MWalksProject.API\\Controllers\\WalksController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAACYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T14:06:41.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ImageConverter.cs",
+              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Utilities\\ImageConverter.cs",
+              "RelativeDocumentMoniker": "MWlaksProject.Core\\Utilities\\ImageConverter.cs",
+              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Utilities\\ImageConverter.cs",
+              "RelativeToolTip": "MWlaksProject.Core\\Utilities\\ImageConverter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T13:43:56.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RegionRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.Infastructure\\Repository\\RegionRepository.cs",
+              "RelativeDocumentMoniker": "MWalksProject.Infastructure\\Repository\\RegionRepository.cs",
+              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.Infastructure\\Repository\\RegionRepository.cs",
+              "RelativeToolTip": "MWalksProject.Infastructure\\Repository\\RegionRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T13:31:51.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RegionDto.cs",
+              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\DTOS\\RegionDTOS\\RegionDto.cs",
+              "RelativeDocumentMoniker": "MWlaksProject.Core\\DTOS\\RegionDTOS\\RegionDto.cs",
+              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\DTOS\\RegionDTOS\\RegionDto.cs",
+              "RelativeToolTip": "MWlaksProject.Core\\DTOS\\RegionDTOS\\RegionDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T13:27:49.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RegionControllers.cs",
+              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Controllers\\RegionControllers.cs",
+              "RelativeDocumentMoniker": "MWalksProject.API\\Controllers\\RegionControllers.cs",
+              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Controllers\\RegionControllers.cs",
+              "RelativeToolTip": "MWalksProject.API\\Controllers\\RegionControllers.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAnwBcAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T13:26:01.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DifficultiesController.cs",
+              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Controllers\\DifficultiesController.cs",
+              "RelativeDocumentMoniker": "MWalksProject.API\\Controllers\\DifficultiesController.cs",
+              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Controllers\\DifficultiesController.cs",
+              "RelativeToolTip": "MWalksProject.API\\Controllers\\DifficultiesController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAnwBMAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-02T12:56:31.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "MWalksProject.API.csproj",
+              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\MWalksProject.API.csproj",
+              "RelativeDocumentMoniker": "MWalksProject.API\\MWalksProject.API.csproj",
+              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\MWalksProject.API.csproj",
+              "RelativeToolTip": "MWalksProject.API\\MWalksProject.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-01T11:35:57.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "MWalksProject.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "MWalksProject.API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T12:14:08.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DifficultyRepository.cs",
+              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.Infastructure\\Repository\\DifficultyRepository.cs",
+              "RelativeDocumentMoniker": "MWalksProject.Infastructure\\Repository\\DifficultyRepository.cs",
+              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.Infastructure\\Repository\\DifficultyRepository.cs",
+              "RelativeToolTip": "MWalksProject.Infastructure\\Repository\\DifficultyRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T12:13:01.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
               "Title": "AddRegionDto.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\DTOS\\RegionDTOS\\AddRegionDto.cs",
               "RelativeDocumentMoniker": "MWlaksProject.Core\\DTOS\\RegionDTOS\\AddRegionDto.cs",
@@ -206,19 +526,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 38,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.Infastructure\\UnitOfWork\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "MWalksProject.Infastructure\\UnitOfWork\\UnitOfWork.cs",
               "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.Infastructure\\UnitOfWork\\UnitOfWork.cs",
               "RelativeToolTip": "MWalksProject.Infastructure\\UnitOfWork\\UnitOfWork.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAcAAAASAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAIBJwAcAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T19:30:32.325Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 39,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\IUnitOfWork\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "MWlaksProject.Core\\IUnitOfWork\\IUnitOfWork.cs",
@@ -230,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 41,
               "Title": "MWalksProject.Infastructure.csproj",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.Infastructure\\MWalksProject.Infastructure.csproj",
               "RelativeDocumentMoniker": "MWalksProject.Infastructure\\MWalksProject.Infastructure.csproj",
@@ -242,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 37,
               "Title": "MWalksProject.API.http",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\MWalksProject.API.http",
               "RelativeDocumentMoniker": "MWalksProject.API\\MWalksProject.API.http",
@@ -254,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 42,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\appsettings.json",
               "RelativeDocumentMoniker": "MWalksProject.API\\appsettings.json",
@@ -266,43 +586,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 43,
               "Title": "EgyptWalks_Logs20240826.txt",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Logs\\EgyptWalks_Logs20240826.txt",
               "RelativeDocumentMoniker": "MWalksProject.API\\Logs\\EgyptWalks_Logs20240826.txt",
               "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Logs\\EgyptWalks_Logs20240826.txt",
               "RelativeToolTip": "MWalksProject.API\\Logs\\EgyptWalks_Logs20240826.txt",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAABBwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2024-08-26T17:35:37.996Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 5,
               "Title": "AddWalkDto.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\DTOS\\WalksDTOS\\AddWalkDto.cs",
               "RelativeDocumentMoniker": "MWlaksProject.Core\\DTOS\\WalksDTOS\\AddWalkDto.cs",
               "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\DTOS\\WalksDTOS\\AddWalkDto.cs",
               "RelativeToolTip": "MWlaksProject.Core\\DTOS\\WalksDTOS\\AddWalkDto.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAUwBYAAAAmAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T17:00:09.093Z"
+              "WhenOpened": "2024-08-26T17:00:09.093Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 4,
               "Title": "WalksDto.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\DTOS\\WalksDTOS\\WalksDto.cs",
               "RelativeDocumentMoniker": "MWlaksProject.Core\\DTOS\\WalksDTOS\\WalksDto.cs",
               "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\DTOS\\WalksDTOS\\WalksDto.cs",
               "RelativeToolTip": "MWlaksProject.Core\\DTOS\\WalksDTOS\\WalksDto.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T16:55:44.702Z"
+              "WhenOpened": "2024-08-26T16:55:44.702Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 40,
               "Title": "ImageRepository.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.Infastructure\\Repository\\ImageRepository.cs",
               "RelativeDocumentMoniker": "MWalksProject.Infastructure\\Repository\\ImageRepository.cs",
@@ -310,23 +632,24 @@
               "RelativeToolTip": "MWalksProject.Infastructure\\Repository\\ImageRepository.cs",
               "ViewState": "AQIAACEAAAAAAAAAAAAgwDUAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T16:06:46.456Z"
+              "WhenOpened": "2024-08-26T16:06:46.456Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 44,
               "Title": "CustomValidationAttribute.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\CustomValidationAttribute\\CustomValidationAttribute.cs",
               "RelativeDocumentMoniker": "MWlaksProject.Core\\CustomValidationAttribute\\CustomValidationAttribute.cs",
               "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\CustomValidationAttribute\\CustomValidationAttribute.cs",
               "RelativeToolTip": "MWlaksProject.Core\\CustomValidationAttribute\\CustomValidationAttribute.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAAAsAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAMAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-26T16:05:27.947Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 46,
               "Title": "ImageDto.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\DTOS\\ImagesDtos\\ImageDto.cs",
               "RelativeDocumentMoniker": "MWlaksProject.Core\\DTOS\\ImagesDtos\\ImageDto.cs",
@@ -338,31 +661,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 9,
               "Title": "FaviouriteWalksRepositoy.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.Infastructure\\Repository\\FaviouriteWalksRepositoy.cs",
               "RelativeDocumentMoniker": "MWalksProject.Infastructure\\Repository\\FaviouriteWalksRepositoy.cs",
               "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.Infastructure\\Repository\\FaviouriteWalksRepositoy.cs",
               "RelativeToolTip": "MWalksProject.Infastructure\\Repository\\FaviouriteWalksRepositoy.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAABAAAAAFAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAowA4AAACAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-26T15:11:54.402Z"
+              "WhenOpened": "2024-08-26T15:11:54.402Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 1,
               "Title": "WalksRepository.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.Infastructure\\Repository\\WalksRepository.cs",
               "RelativeDocumentMoniker": "MWalksProject.Infastructure\\Repository\\WalksRepository.cs",
               "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.Infastructure\\Repository\\WalksRepository.cs",
               "RelativeToolTip": "MWalksProject.Infastructure\\Repository\\WalksRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAUwEQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T13:09:57.76Z"
+              "WhenOpened": "2024-08-25T13:09:57.76Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 47,
               "Title": "EgyptWalks_Logs20240814.txt",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Logs\\EgyptWalks_Logs20240814.txt",
               "RelativeDocumentMoniker": "MWalksProject.API\\Logs\\EgyptWalks_Logs20240814.txt",
@@ -374,7 +699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 48,
               "Title": "EgyptWalks_Logs20240815.txt",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Logs\\EgyptWalks_Logs20240815.txt",
               "RelativeDocumentMoniker": "MWalksProject.API\\Logs\\EgyptWalks_Logs20240815.txt",
@@ -386,7 +711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 49,
               "Title": "EgyptWalks_Logs20240824.txt",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Logs\\EgyptWalks_Logs20240824.txt",
               "RelativeDocumentMoniker": "MWalksProject.API\\Logs\\EgyptWalks_Logs20240824.txt",
@@ -398,103 +723,107 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 33,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Program.cs",
               "RelativeDocumentMoniker": "MWalksProject.API\\Program.cs",
               "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Program.cs",
               "RelativeToolTip": "MWalksProject.API\\Program.cs",
-              "ViewState": "AQIAAFsAAAAAAAAAAAAkwGYAAAAAAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAADIAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T13:08:34.438Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 6,
               "Title": "Walks.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Models\\Walks.cs",
               "RelativeDocumentMoniker": "MWlaksProject.Core\\Models\\Walks.cs",
               "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Models\\Walks.cs",
               "RelativeToolTip": "MWlaksProject.Core\\Models\\Walks.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAwwA8AAAAkAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA4wBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T13:06:41.972Z"
+              "WhenOpened": "2024-08-25T13:06:41.972Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 14,
               "Title": "Review.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Models\\Review.cs",
               "RelativeDocumentMoniker": "MWlaksProject.Core\\Models\\Review.cs",
               "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Models\\Review.cs",
               "RelativeToolTip": "MWlaksProject.Core\\Models\\Review.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAuwBAAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T13:06:39.767Z"
+              "WhenOpened": "2024-08-25T13:06:39.767Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 16,
               "Title": "Region.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Models\\Region.cs",
               "RelativeDocumentMoniker": "MWlaksProject.Core\\Models\\Region.cs",
               "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Models\\Region.cs",
               "RelativeToolTip": "MWlaksProject.Core\\Models\\Region.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAzwBAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T13:06:37.611Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 19,
               "Title": "Images.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Models\\Images.cs",
               "RelativeDocumentMoniker": "MWlaksProject.Core\\Models\\Images.cs",
               "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Models\\Images.cs",
               "RelativeToolTip": "MWlaksProject.Core\\Models\\Images.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAUwBMAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAwBMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T13:06:36.526Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 10,
               "Title": "FaviouriteWalks.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Models\\FaviouriteWalks.cs",
               "RelativeDocumentMoniker": "MWlaksProject.Core\\Models\\FaviouriteWalks.cs",
               "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Models\\FaviouriteWalks.cs",
               "RelativeToolTip": "MWlaksProject.Core\\Models\\FaviouriteWalks.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAwAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T13:06:34.465Z"
+              "WhenOpened": "2024-08-25T13:06:34.465Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 18,
               "Title": "Difficult.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Models\\Difficult.cs",
               "RelativeDocumentMoniker": "MWlaksProject.Core\\Models\\Difficult.cs",
               "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Models\\Difficult.cs",
               "RelativeToolTip": "MWlaksProject.Core\\Models\\Difficult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T13:06:32.727Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Mapper\\MappingProfile.cs",
               "RelativeDocumentMoniker": "MWlaksProject.Core\\Mapper\\MappingProfile.cs",
               "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Mapper\\MappingProfile.cs",
               "RelativeToolTip": "MWlaksProject.Core\\Mapper\\MappingProfile.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAywBkAAAAAAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAA5wCsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T13:05:06.337Z"
+              "WhenOpened": "2024-08-25T13:05:06.337Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 50,
               "Title": "AuthModel.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Helper\\AuthModel.cs",
               "RelativeDocumentMoniker": "MWlaksProject.Core\\Helper\\AuthModel.cs",
@@ -506,7 +835,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 51,
               "Title": "JwtHelper.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Helper\\JwtHelper.cs",
               "RelativeDocumentMoniker": "MWlaksProject.Core\\Helper\\JwtHelper.cs",
@@ -518,7 +847,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 52,
               "Title": "QuaryObject.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Helper\\QuaryObject.cs",
               "RelativeDocumentMoniker": "MWlaksProject.Core\\Helper\\QuaryObject.cs",
@@ -530,7 +859,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 53,
               "Title": "PaginationMetaData.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Helper\\PaginationMetaData.cs",
               "RelativeDocumentMoniker": "MWlaksProject.Core\\Helper\\PaginationMetaData.cs",
@@ -542,7 +871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 54,
               "Title": "NotFoundException.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\exception\\NotFoundException.cs",
               "RelativeDocumentMoniker": "MWlaksProject.Core\\exception\\NotFoundException.cs",
@@ -554,7 +883,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 55,
               "Title": "NotAuthorizedException.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\exception\\NotAuthorizedException.cs",
               "RelativeDocumentMoniker": "MWlaksProject.Core\\exception\\NotAuthorizedException.cs",
@@ -566,7 +895,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 56,
               "Title": "BadRequestException.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\exception\\BadRequestException.cs",
               "RelativeDocumentMoniker": "MWlaksProject.Core\\exception\\BadRequestException.cs",
@@ -578,55 +907,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "CustomMiddleWare.cs",
-              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\CustomMiddelwarre\\CustomMiddleWare.cs",
-              "RelativeDocumentMoniker": "MWalksProject.API\\CustomMiddelwarre\\CustomMiddleWare.cs",
-              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\CustomMiddelwarre\\CustomMiddleWare.cs",
-              "RelativeToolTip": "MWalksProject.API\\CustomMiddelwarre\\CustomMiddleWare.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAYwB0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T13:03:34.784Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CustomActionFilter.cs",
-              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\CustomActionFilter\\CustomActionFilter.cs",
-              "RelativeDocumentMoniker": "MWalksProject.API\\CustomActionFilter\\CustomActionFilter.cs",
-              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\CustomActionFilter\\CustomActionFilter.cs",
-              "RelativeToolTip": "MWalksProject.API\\CustomActionFilter\\CustomActionFilter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T13:03:18.669Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 32,
               "Title": "DifficultDTO.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\DTOS\\DifficultiesDTOS\\DifficultDTO.cs",
               "RelativeDocumentMoniker": "MWlaksProject.Core\\DTOS\\DifficultiesDTOS\\DifficultDTO.cs",
               "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\DTOS\\DifficultiesDTOS\\DifficultDTO.cs",
               "RelativeToolTip": "MWlaksProject.Core\\DTOS\\DifficultiesDTOS\\DifficultDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T10:57:49.288Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 25,
               "Title": "IRegionRepository.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Interfaces\\IRegionRepository.cs",
               "RelativeDocumentMoniker": "MWlaksProject.Core\\Interfaces\\IRegionRepository.cs",
               "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Interfaces\\IRegionRepository.cs",
               "RelativeToolTip": "MWlaksProject.Core\\Interfaces\\IRegionRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T10:52:50.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 45,
               "Title": "IimageRepository.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWlaksProject.Core\\Interfaces\\IimageRepository.cs",
               "RelativeDocumentMoniker": "MWlaksProject.Core\\Interfaces\\IimageRepository.cs",
@@ -638,19 +943,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "ReviewController.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Controllers\\ReviewController.cs",
               "RelativeDocumentMoniker": "MWalksProject.API\\Controllers\\ReviewController.cs",
               "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Controllers\\ReviewController.cs",
               "RelativeToolTip": "MWalksProject.API\\Controllers\\ReviewController.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAYwBcAAAAAAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA5wBEAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T10:51:06.214Z"
+              "WhenOpened": "2024-08-25T10:51:06.214Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 36,
               "Title": "ImagesController.cs",
               "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Controllers\\ImagesController.cs",
               "RelativeDocumentMoniker": "MWalksProject.API\\Controllers\\ImagesController.cs",
@@ -659,55 +965,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-25T10:50:59.674Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FaviouriteWalkController.cs",
-              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Controllers\\FaviouriteWalkController.cs",
-              "RelativeDocumentMoniker": "MWalksProject.API\\Controllers\\FaviouriteWalkController.cs",
-              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Controllers\\FaviouriteWalkController.cs",
-              "RelativeToolTip": "MWalksProject.API\\Controllers\\FaviouriteWalkController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T10:50:52.937Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RegionControllers.cs",
-              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Controllers\\RegionControllers.cs",
-              "RelativeDocumentMoniker": "MWalksProject.API\\Controllers\\RegionControllers.cs",
-              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Controllers\\RegionControllers.cs",
-              "RelativeToolTip": "MWalksProject.API\\Controllers\\RegionControllers.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAwwDIAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T10:47:52.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "WalksController.cs",
-              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Controllers\\WalksController.cs",
-              "RelativeDocumentMoniker": "MWalksProject.API\\Controllers\\WalksController.cs",
-              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Controllers\\WalksController.cs",
-              "RelativeToolTip": "MWalksProject.API\\Controllers\\WalksController.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAAYwE8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-25T10:42:58.091Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DifficultiesController.cs",
-              "DocumentMoniker": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Controllers\\DifficultiesController.cs",
-              "RelativeDocumentMoniker": "MWalksProject.API\\Controllers\\DifficultiesController.cs",
-              "ToolTip": "D:\\Projects\\MWlaksProject\\MWalksProject\\MWalksProject.API\\Controllers\\DifficultiesController.cs",
-              "RelativeToolTip": "MWalksProject.API\\Controllers\\DifficultiesController.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAwwDIAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T12:00:42.715Z"
             }
           ]
         }

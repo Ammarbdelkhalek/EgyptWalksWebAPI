@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
+using MW.laksProject.Core.Mapper;
 using MWalksProject.API.CustomMiddelwarre;
 using MWalksProject.Infastructure.Data;
 using MWalksProject.Infastructure.Repository;
@@ -47,7 +48,7 @@ builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 builder.Services.AddScoped<IauthRepository, AuthRepository>();
 builder.Services.AddScoped<ITokenServices, TokenServices>();
 builder.Services.AddScoped<PaginationServices>();
-builder.Services.AddAutoMapper(typeof(Program));
+builder.Services.AddAutoMapper(typeof(AutoMapperProfiling).Assembly);
 #endregion
 
 #region identity Configuration

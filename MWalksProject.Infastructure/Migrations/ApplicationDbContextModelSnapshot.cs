@@ -118,10 +118,13 @@ namespace MWalksProject.Infastructure.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("ApplicationUserId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -195,7 +198,6 @@ namespace MWalksProject.Infastructure.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("ApplicationUserId")
-                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Comment")
@@ -203,6 +205,10 @@ namespace MWalksProject.Infastructure.Migrations
 
                     b.Property<int>("Rate")
                         .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<Guid>("WalkId")
                         .HasColumnType("uniqueidentifier");
@@ -388,9 +394,7 @@ namespace MWalksProject.Infastructure.Migrations
                 {
                     b.HasOne("MWlaksProject.Core.Models.ApplicationUser", "ApplicationUser")
                         .WithMany()
-                        .HasForeignKey("ApplicationUserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ApplicationUserId");
 
                     b.HasOne("MWlaksProject.Core.Models.Walks", "Walk")
                         .WithMany()
@@ -407,9 +411,7 @@ namespace MWalksProject.Infastructure.Migrations
                 {
                     b.HasOne("MWlaksProject.Core.Models.ApplicationUser", "ApplicationUser")
                         .WithMany("Reviews")
-                        .HasForeignKey("ApplicationUserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ApplicationUserId");
 
                     b.HasOne("MWlaksProject.Core.Models.Walks", "Walk")
                         .WithMany()

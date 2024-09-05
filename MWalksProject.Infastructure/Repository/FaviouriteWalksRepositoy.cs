@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MWalksProject.Infastructure.Data;
+using MWlaksProject.Core.DTOS.FavioriteWalkDTOS;
 using MWlaksProject.Core.Interfaces;
 using MWlaksProject.Core.Models;
 
@@ -9,11 +10,12 @@ namespace MWalksProject.Infastructure.Repository
     public class FaviouriteWalksRepositoy(ApplicationDbContext context) : IFaviouriteWalks
     {
 
-        public async  Task<List<FaviouriteWalks>> GetAllFaviouriteWalks()
+        public async Task<List<FaviouriteWalks>> GetAllFaviouriteWalks()
         {
-            return   await context.FaviouriteWalks.AsNoTracking().ToListAsync();
+            return   await context.FaviouriteWalks.Include(x=>x.Walk).Include(x=>x.ApplicationUser).AsNoTracking().ToListAsync();
         }
-        public async Task<MWlaksProject.Core.Models.FaviouriteWalks> Add(MWlaksProject.Core.Models.FaviouriteWalks faviouriteWalks)
+
+        public async Task<FaviouriteWalks> Add(FaviouriteWalks faviouriteWalks)
         {
             await context.FaviouriteWalks.AddAsync(faviouriteWalks);
             await context.SaveChangesAsync();

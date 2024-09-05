@@ -22,9 +22,9 @@ namespace MWlaksProject.Core.DTOS.WalksDTOS
         public double ?LengthInKm { get; set; }
         [FileValidator("jpg ,png",1456 )]
         public IFormFile ?WalkImageUrl { get; set; }
-        [Required(ErrorMessage = "DifficultyId field is required")]
-        public Guid DifficultyId { get; set; }
-        [Required(ErrorMessage = "RegionId field is required")]
-        public Guid RegionId { get; set; }
+       // [Required(ErrorMessage = "DifficultyId field is required")]
+        public Guid ?DifficultyId { get; set; }
+        //[Required(ErrorMessage = "RegionId field is required")]
+        public Guid ?RegionId { get; set; }
     }
 }

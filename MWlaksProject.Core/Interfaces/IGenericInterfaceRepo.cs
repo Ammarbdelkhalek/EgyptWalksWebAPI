@@ -9,7 +9,7 @@ namespace MWlaksProject.Core.Interfaces
 {
     public interface IGenericInterfaceRepo<T> where T : class
     {
-        Task<List<T>> GetAllAsync(QuaryObject ?quaryObject);
+        Task<List<T>> GetAllAsync();
 
         Task<T> GetByIdAsync(Guid id);
         Task<T> CreateAsync(T entity);

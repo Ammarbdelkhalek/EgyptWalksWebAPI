@@ -1,6 +1,7 @@
 ﻿
 using Microsoft.EntityFrameworkCore;
 using MWalksProject.Infastructure.Data;
+using MWlaksProject.Core.DTOS.RegionDTOS;
 using MWlaksProject.Core.Helper;
 using MWlaksProject.Core.Interfaces;
 using MWlaksProject.Core.Models;
@@ -10,7 +11,7 @@ namespace MWalksProject.Infastructure.Repository
 {
     public class RegionRepository(ApplicationDbContext contex) : IRegionRepository
     {
-        public async Task<List<Region>> GetAllAsync(QuaryObject quaryObject)
+        public async Task<List<Region>> GetAllAsync()
         {
             return await contex.Regions.AsNoTracking().ToListAsync();
         }
@@ -40,6 +41,7 @@ namespace MWalksProject.Infastructure.Repository
         }
         public async  Task<Region> CreateAsync(Region entity)
         {
+
             await contex.Regions.AddAsync(entity);
             await contex.SaveChangesAsync();    
             return entity;

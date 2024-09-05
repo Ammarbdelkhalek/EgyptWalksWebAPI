@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MWalksProject.Infastructure.UnitOfWork;
@@ -16,15 +17,14 @@ namespace MWalksProject.API.Controllers
     public class DifficultiesController(IUnitOfWork unitOfWork , IMapper mapper) : ControllerBase
     {
         [HttpGet]
-        [Route("GetAllAsync")]
-        public async Task<IActionResult> GetAllAsync(QuaryObject quary)
+        public async Task<IActionResult> GetAllAsync()
         {
-            var Difficulties = await unitOfWork.Difficulty.GetAllAsync(quary);
-            var DifficultiesDto = mapper.Map<List<DifficultDTO>>(Difficulties);
-            return Ok(DifficultiesDto);
+            var Difficulties = await unitOfWork.Difficulty.GetAllAsync();
+            var DifficultiesDto = mapper.Map<IEnumerable<DifficultDTO>>(Difficulties);
+            return Ok(Difficulties);
         }
         [HttpGet]
-        [Route("GetByIdAsync{id:int}")]
+        [Route("GetByIdAsync{id}")]
         public async Task<IActionResult> GetByIdAsync(Guid id)
         {
             var Difficulty = await unitOfWork.Difficulty.GetByIdAsync(id);
@@ -38,18 +38,20 @@ namespace MWalksProject.API.Controllers
         {
             var Difficulty = mapper.Map<Difficulty>(dto);
             var updateDifficulty = await unitOfWork.Difficulty.updateAsync(Difficulty, id);
-            var difficultyDto = mapper.Map<DifficultDTO>(updateDifficulty);
-            return Ok(difficultyDto);
+            var mappedDifficulty = mapper.Map<DifficultDTO>(updateDifficulty);
+ 
+            return Ok(mappedDifficulty);
         }
         [HttpPost]
         [Route("CreateAsync")]
         public async Task<IActionResult> CreateAsync(DifficultDTO dto)
         {
-            var Difficulty = mapper.Map<Difficulty>(dto);
-            var createdDifficulty = await unitOfWork.Difficulty.CreateAsync(Difficulty);
-            var DifficultDto = mapper.Map<DifficultDTO>(createdDifficulty);
-            return Ok();
-                //CreatedAtAction(nameof(GetByIdAsync), new { id = Difficulty.Id }, new { message = "Walk Created successfuly" });
+            var Diffculty = mapper.Map<Difficulty>(dto);
+            var createdDifficulty = await unitOfWork.Difficulty.CreateAsync(Diffculty);
+            var DifficultyDto = mapper.Map<DifficultDTO>(createdDifficulty);
+             
+            return  StatusCode(201, DifficultyDto);
+            //CreatedAtAction(nameof(GetByIdAsync), new { id = Diffculty.Id }, new { message = "Walk Created successfuly" });
         }
         [HttpDelete]
         [Route("deleteAsync")]

@@ -124,7 +124,7 @@ namespace MWalksProject.Infastructure.Repository
                 throw new NotFoundException($"Difficulty with id {dto.DifficultyId} not found.");
 
             var walk = mapper.Map<Walks>(dto);
-            walk.WalkImageUrl = dto.WalkImageUrl != null ? await MWlaksProject.Core.Utilities.ImageConverter.ToByteArray(dto.WalkImageUrl) : null;
+            walk.WalkImageUrl = dto.WalkImageUrl != null ? await ImageConverters.ToByteArray(dto.WalkImageUrl) : null;
             await context.Walks.AddAsync(walk);
             await context.SaveChangesAsync();
             return walk;
@@ -146,7 +146,7 @@ namespace MWalksProject.Infastructure.Repository
                 existingWalk.LengthInKm = dto.LengthInKm.Value;
 
             if (dto.WalkImageUrl != null)
-                existingWalk.WalkImageUrl = await MWlaksProject.Core.Utilities.ImageConverter.ToByteArray(dto.WalkImageUrl);
+                existingWalk.WalkImageUrl = await ImageConverters.ToByteArray(dto.WalkImageUrl);
 
             if (dto.RegionId.HasValue)
             {

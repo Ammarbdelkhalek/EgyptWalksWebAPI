@@ -1,4 +1,5 @@
-﻿using MWlaksProject.Core.Models;
+﻿using MWlaksProject.Core.DTOS.FavioriteWalkDTOS;
+using MWlaksProject.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

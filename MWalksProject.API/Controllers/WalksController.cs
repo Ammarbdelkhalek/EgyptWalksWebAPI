@@ -6,7 +6,10 @@ using MWlaksProject.Core.DTOS.WalksDTOS;
 using MWlaksProject.Core.Helper;
 using MWlaksProject.Core.IUnitOfWork;
 using MWlaksProject.Core.Models;
+using MWlaksProject.Core.Utilities;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.Drawing;
 using System.Globalization;
 using System.Reflection.Metadata.Ecma335;
 
@@ -29,10 +32,11 @@ namespace MWalksProject.API.Controllers
             )
         {
             var (data, pagination) = await unitOfWork.Walks.GetAllWalksAsync(filterOn, filterQuery, sortBy, ascending ?? true, page, limit);
-            var mappedData = mapper.Map<IEnumerable<WalksDto>>(data);
+            // var mappedData = mapper.Map<List<WalksDto>>(data);
+
             var response = new
             {
-                data = mappedData,
+                Data = data,
                 pagination = pagination
             };
 
@@ -50,13 +54,16 @@ namespace MWalksProject.API.Controllers
             }
             return Ok(walk);
         }
-        [HttpPost]
-        [Route("Create")]
+        [HttpPost()]
+        [Route("")]
+        
         public async Task<IActionResult> CreateAsync(AddWalkDto dto)
         {
             var walk = await unitOfWork.Walks.CreateAsync(dto);
-            var walkMapper = mapper.Map<AddWalkDto>(walk);
-            return CreatedAtAction(nameof(GetByIdAsync), new { id = walk.Id }, new { message = "Walk Created successfuly" });
+            
+            return StatusCode(201, walk);
+                
+                //CreatedAtAction(nameof(GetByIdAsync), new { id = walk.Id }, new { message = "Walk Created successfuly" });
 
         }
         [HttpDelete]

@@ -14,9 +14,9 @@ namespace MWalksProject.Infastructure.Repository
 {
     public class ReviewRepository(ApplicationDbContext context , IMapper mapper) : IReviewRepsitory
     {
-        public async Task<Review> Add(Review review, Guid user)
+        public async Task<Review> Add(Review review, string user)
         {
-              user =  context.Entry(review).Property<Guid>("ApplicationUserId").CurrentValue = user;
+              user =  context.Entry(review).Property<string>("UserId").CurrentValue = user;
 
              await context.Reviews.AddAsync(review);
             await context.SaveChangesAsync();

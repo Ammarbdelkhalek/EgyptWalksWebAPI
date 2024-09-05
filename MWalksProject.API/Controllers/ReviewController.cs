@@ -15,7 +15,7 @@ namespace MWalksProject.API.Controllers
         public async Task<IActionResult> CreateAsync(CreateReviewDto dto)
         {
             var mappedValues = mapper.Map<Review>(dto);
-            var review = await unitOfWork.Reviews.Add(mappedValues, dto.ApplicationUserId);
+            var review = await unitOfWork.Reviews.Add(mappedValues, dto.UserId);
             return Ok(mappedValues);
 
         }

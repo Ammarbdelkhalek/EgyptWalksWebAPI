@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MWlaksProject.Core.Utilities
 {
-    public static class ImageConverter
+    public static class ImageConverters
     {
         public  static async Task<byte[]>ToByteArray (this IFormFile image)
         {

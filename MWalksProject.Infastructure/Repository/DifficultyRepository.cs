@@ -9,9 +9,9 @@ namespace MWalksProject.Infastructure.Repository
     public class DifficultyRepository (ApplicationDbContext context): IDifficultiesRepository
     {
 
-        public async  Task<List<Difficulty>> GetAllAsync(QuaryObject quaryObject)
+        public async  Task<List<Difficulty>> GetAllAsync()
         {
-            return await context.difficulties.AsNoTracking().ToListAsync(); 
+            return await context.difficulties.ToListAsync(); 
         }
 
         public async Task<Difficulty> CreateAsync(Difficulty entity)

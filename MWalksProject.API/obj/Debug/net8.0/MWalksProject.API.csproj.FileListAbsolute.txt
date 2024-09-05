@@ -156,3 +156,4 @@ D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\bin\Debug\net8.0\Seril
 D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\bin\Debug\net8.0\Serilog.Sinks.Console.dll
 D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\bin\Debug\net8.0\Serilog.Sinks.File.dll
+D:\Projects\MWlaksProject\MWalksProject\MWalksProject.API\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

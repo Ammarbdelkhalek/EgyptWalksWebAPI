@@ -14,7 +14,7 @@ namespace MWlaksProject.Core.Models
         public int Rate { get; set; }
 
         public Guid WalkId { get; set; }
-        public string ApplicationUserId { get; set; }
+        public string UserId { get; set; }
         public Walks Walk { get; set; }
         public ApplicationUser ApplicationUser { get; set; }
     }

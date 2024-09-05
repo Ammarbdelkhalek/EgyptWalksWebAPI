@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,8 +10,9 @@ namespace MWlaksProject.Core.DTOS.RegionDto
 {
     public class RegionDto
     {
+        public Guid Id { get; set; }
         public string Name { get; set; }
         public string Code { get; set; }
-        public string? RegionImageUrl { get; set; }
+        public byte[]? RegionImageUrl { get; set; }
     }
 }
